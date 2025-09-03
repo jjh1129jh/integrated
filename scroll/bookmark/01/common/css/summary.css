@@ -1,0 +1,154 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/summary/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/summary/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/summary/img2.png");
+}
+
+/*정리하기 내용*/
+.htmlPage .summary{
+	position: absolute;
+    top:160px;
+    left:550px;
+	width:1300px;
+	height:690px;
+
+    color:#1f1f1f;
+    opacity: 0;
+}
+
+/*one*/
+.htmlPage .summary .one .txt{
+   font-size: 50pt;
+   font-weight: 600;
+   padding: 0px 0px 0px 20px
+}
+
+/*two*/
+.htmlPage .summary .two{
+   margin: 20px 0px 0px 90px
+}
+.htmlPage .summary .two .txt{
+   font-size: 35pt;
+   font-weight: 600;
+   padding: 5px 0px 0px 0px
+}
+
+/*three*/
+.htmlPage .summary .three{
+   margin: 10px 0px 0px 166px
+}
+.htmlPage .summary .three .txt{
+   font-size: 25pt;
+   font-weight: 400;
+   padding: 0px 0px 0px 10px
+}
+
+/*four*/
+.htmlPage .summary .four{
+   margin: 0px 0px 0px 180px
+}
+.htmlPage .summary .four .txt{
+   font-size: 25pt;
+   font-weight: 300;
+   padding: 0px 0px 0px 0px
+}
+
+/*five*/
+.htmlPage .summary .five{
+   margin: 0px 0px 0px 210px
+}
+
+.htmlPage .summary .five .txt{
+   font-size: 20pt;
+   font-weight: 100;
+   padding: 0px 0px 0px 0px
+}
+
+.htmlPage .summary .table{
+    border: 2px solid #666;
+    border-collapse: collapse;
+    margin: 20px 0px 0px 190px
+}
+.htmlPage .summary .table th{
+    background-color: #2a2a2a;
+    border: 1px solid #666;
+    color:#fff;
+}
+.htmlPage .summary .table td{
+    border: 1px solid #666;
+    padding: 10px 30px;
+}
+/*참고문헌*/
+.htmlPage .etcPop{
+	position: absolute;
+	width:960px;
+	height:540px;
+	
+	top:0px;
+	left:0px;
+	
+	background-color: aqua;
+	display: none;
+}
+.htmlPage .etcPop .etc{
+	position: absolute;
+	width:960px;
+	height:100px;
+}
+.htmlPage .etcOpen{
+	position: absolute;
+	width:50px;
+	height:50px;
+	
+	top:450px;
+	left:0px;
+	background-color: aqua;
+}
+.htmlPage .etcClose{
+	position: absolute;
+	font-size: 20px;
+	
+	top:0px;
+	right:0px;
+}
+
+/*인쇄 & 다운로드*/
+.htmlPage .print{
+	position: absolute;
+	width:69px;
+	height:79px;
+	
+	top:50px;
+	left:1800px;
+    background:url("../img/summary/print.png");
+	//background-color:antiquewhite;
+}
+.htmlPage .print:hover{
+	background-position-y:-79px;
+}
+
+.htmlPage .down{
+	position: absolute;
+	width:69px;
+	height:79px;
+	
+	top:50px;
+	left:1720px;
+    background:url("../img/summary/down.png");
+	//background-color:aquamarine;
+}
+.htmlPage .down:hover{
+	background-position-y:-79px;
+}

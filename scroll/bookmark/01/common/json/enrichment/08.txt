@@ -1,0 +1,1 @@
+﻿<div class="info">	<div class="info_blit"></div>	<div class="info0">국제가족세우기 연구소</div>	<div class="info1">		<span class="icon">출처</span><span class="txt">가족세우기연구소(www.koreafamily.org)</span>	</div>	<div class="info2"></div>	<button class="link0" onclick="window.open('http://www.koreafamily.org','_blank')"></button></div>[/]pop가족세우기 연구소를 통해 가족세우기에 대해 자세한 내용을 확인해보세요.

@@ -1,0 +1,6 @@
+#howBox{padding-top:145px;padding-left:75px;box-sizing:border-box;width:100%;height:495px;position:relative;}
+#howBox ul{width:97%}
+#howBox ul li {margin-bottom:8px;position:relative;}
+#howBox ul li em{margin-right:3px;position:absolute;top:3px;left:-29px}
+#howBox ul li span{font-size:13.5pt;line-height:1.4;vertical-align: top;word-break:keep-all}
+#howBox #howBtn{position:absolute;right:10px;bottom:10px;}

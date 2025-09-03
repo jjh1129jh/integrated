@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "지문 ADHD의 행동적 특성은 주의력결핍 과잉행동-충동성이다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "ADHD질환은 감각수용 처리미숙으로 인한 자기통제 능력 부족의 특성입니다.",
+            "right": "O"
+        }
+    ]
+}

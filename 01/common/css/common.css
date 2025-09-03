@@ -1,0 +1,43 @@
+@import url("media.css");/*media*/
+@import url("top.css");/*top*/
+@import url("menu.css");/*menu*/
+@import url("add.css");/*add*/
+@import url("font.css");/*add*/
+
+body{
+	margin: 0px;
+	font-family:'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	
+	overflow: hidden;
+}
+
+span{
+	margin: 0px;
+	font-family:'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+button{
+	margin: 0px;
+	font-family:'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	
+	background:url(../img/basic/block.png);
+	overflow:hidden;
+	border:none;
+	cursor: pointer;
+}
+*{
+	margin:0
+}
+button i{
+	font-size: 16pt;
+}
+
+h3{
+	text-indent: -9999px;
+}

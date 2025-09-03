@@ -1,0 +1,96 @@
+.add{
+	position: absolute;
+	top:0px;
+	left:0px;
+	
+	width:100%;
+	height:100%;
+	
+	display: none;
+}
+
+.add .addBg{
+	position: absolute;
+	width:100%;
+	height:100%;
+	
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.add .addConArea{
+	position: absolute;
+	top:50%;
+	left:50%;
+	//background-color: #666;
+	overflow: hidden;
+}
+.add .addCon{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.add .addCon .addConBg{
+	position: absolute;
+	top:61px;
+	margin:20px;
+	border-radius:0px 0px 20px 20px;
+	background-color: #fff;
+}
+
+/*단축키안내*/
+.add .addCon .keyboard .addConBg{
+	background:url("../img/basic/keyboard.png");
+}
+
+.add .addCon .road .roadScroll{
+	position: absolute;
+	margin: 10px;
+	width:99%;
+	height:95%;
+}
+
+.add .addCon .teacher .teachers{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.add .addBtns{
+	position: absolute;
+	top:29px;
+	left:15px;
+}
+
+.add .addBtns button{
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: 5px;
+	padding: 10px 30px;
+	border-radius:20px 20px 0px 0px;
+	background-color: #ccc;
+}
+.add .addBtns button:hover{
+	background-color: #fff;
+}
+
+.add .addBtns .active{
+	background-color: #fff;
+}
+
+.add .addClose{
+	position: absolute;
+	width:32px;
+	height:32px;
+	top:10px;
+	right:20px;
+	
+	font-size: 30px;
+	color:#fff;
+	
+	background:url("../img/basic/close.png");
+}
+.add .addClose:hover{
+	background-position-y:-32px;
+}

@@ -1,0 +1,123 @@
+
+
+/*font-family: 'Noto Sans KR', sans-serif;*/
+
+/*나눔 바른고딕*/
+
+@font-face {
+    font-family: 'nanum-barun-gothic-regular';
+    src: url('./font/nanumbarungothicregular.eot');
+    src: url('./font/nanumbarungothicregular.eot?#iefix') format('embedded-opentype'),
+         url('./font/nanumbarungothicregular.woff') format('woff'),
+         url('./font/nanumbarungothicregular.ttf') format('truetype'),
+         url('./font/nanumbarungothicregular.svg#nanum-barun-gothic-regular') format('svg');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('./font/BMDOHYEON.eot');
+    src: url('./font/BMDOHYEON.eot?#iefix') format('embedded-opentype'),   /*IE 6-8*/   
+         url('./font/BMDOHYEON.woff') format('woff'), /*표준 브라우저*/
+         url('./font/BMDOHYEON.ttf') format('truetype'),/*IE를 제외한 대부분의 브라우저*/
+         url('./font/BMDOHYEON.svg#nanum-barun-gothic-regular') format('svg');
+
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NanumBarunpenR';
+    src: url('./font/NanumBarunpenR.eot');
+    src: url('./font/NanumBarunpenR.eot?#iefix') format('embedded-opentype'),   /*IE 6-8*/   
+         url('./font/NanumBarunpenR.woff') format('woff'), /*표준 브라우저*/
+         url('./font/NanumBarunpenR.ttf') format('truetype'),/*IE를 제외한 대부분의 브라우저*/
+         url('./font/NanumBarunpenR.svg#nanum-barun-gothic-regular') format('svg');
+
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sbaggro_m';
+    src: url('./font/sbaggro_m.ttf') format('truetype')/*IE를 제외한 대부분의 브라우저*/
+
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFLight';
+    src: url('./font/GmarketSansTTFLight.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/GmarketSansTTFLight.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFMedium';
+    src: url('./font/GmarketSansTTFMedium.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/GmarketSansTTFMedium.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFBold';
+    src: url('./font/GmarketSansTTFBold.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/GmarketSansTTFBold.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream1';
+    src: url('./font/SCDream1.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream1.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream2';
+    src: url('./font/SCDream2.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream2.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream3';
+    src: url('./font/SCDream3.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream3.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream4';
+    src: url('./font/SCDream4.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream4.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream5';
+    src: url('./font/SCDream5.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream5.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream6';
+    src: url('./font/SCDream6.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream6.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream7';
+    src: url('./font/SCDream7.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream7.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream8';
+    src: url('./font/SCDream8.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream8.woff') format('woff'); /*표준 브라우저*/
+}
+
+@font-face {
+    font-family: 'SCDream9';
+    src: url('./font/SCDream9.ttf') format('truetype');/*IE를 제외한 대부분의 브라우저*/
+    src: url('./font/SCDream9.woff') format('woff'); /*표준 브라우저*/
+}
+@font-face {
+    font-family: '210_omnigulim040';
+    /* src: url('./font/210_omnigulim040.ttf') format('truetype');IE를 제외한 대부분의 브라우저 */
+    src: url('./font/210_omnigulim040.woff') format('woff'); /*표준 브라우저*/
+}

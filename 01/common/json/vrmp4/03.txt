@@ -1,0 +1,52 @@
+﻿{
+    "drag": [
+        {
+            "type": "05",
+            "question": "숫자와 로마숫자를 알맞은 것끼리 이어보세요.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "로마숫자를 이해할 수 있었습니다.",
+            "right": "5"
+        },
+        {
+            "type": "05",
+            "question": "Q2 구형 자동차와 신형 자동차를 각자 위치로 옮기시오.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "2개 드랍 테스트 완료",
+            "right": "2"
+        },
+        {
+            "type": "05",
+            "question": "Q3 자동차의 종류를 구분하시오.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "3개 드랍 테스트 완료",
+            "right": "3"
+        }
+    ]
+}

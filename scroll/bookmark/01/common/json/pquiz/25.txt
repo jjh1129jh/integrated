@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "지적장애인은 심동적인 영역에서 비장애인과 차이를 보이지 않는다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "지적장애인은 심동적인 영역에서 비장애인과 차이가 큽니다.",
+            "right": "X"
+        }
+    ]
+}

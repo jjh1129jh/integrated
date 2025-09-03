@@ -1,0 +1,38 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/word/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/word/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/word/img2.png");
+}
+
+.htmlPage .text{
+	position: absolute;
+	top:50%;
+	left:100px;
+	
+	width:1000px;
+	
+	transform: translate(0, -50%);
+	opacity: 0;
+}
+.htmlPage .text .no{
+	color:rgb(0, 132, 255);
+	font-size: 100pt;
+	font-weight: 600;
+}
+.htmlPage .text .txt{
+	font-size: 30pt;
+	
+	padding-left: 20px;
+}

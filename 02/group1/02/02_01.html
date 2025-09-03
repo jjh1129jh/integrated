@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>		
+	<meta charset="utf-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+    <script language="javascript" src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script language="javascript" src="./js/pageInfo.js"></script>
+		<script language="javascript" src="./js/quizInfo_1page.js"></script>
+    <script language="javascript" src="./js/quiz.js"></script>
+		<link rel="stylesheet" href="./css/quiz.css" type="text/css">
+		<!-- 퀴즈용 -->
+	<script>
+		$(document).ready(function(){			
+			initialize();
+			quizInit();
+		});
+	</script>
+ </head>
+ <body>
+	<div id="wrap">
+		<div id="fs-container">
+			<div class="container_inner">
+
+				<!-- 상단 -->
+				<!--div id="fs-header"></div-->
+				
+				<!-- 인덱스 메뉴 -->
+				<div id="fs-index"></div>
+
+				<!-- 콘텐츠 영역 -->
+				<div id="fs-content">
+					<div id="loading-screen"><div class="spinnerbox"><div class="spinner"></div><img src="../common/css/img/footer/loading_kolon.png" alt="로딩중"></div></div>
+					<div class="content_inner">
+						<div id="htmlShow">
+							<!-- quiz.js -->
+						</div>
+						<div class="levelup">
+							<div class="leveluphuman"></div>
+							<div class="gauge"></div>
+							<div class="gaugebar">
+								<div class="gaugebase">
+									<div class="energy"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+				<!-- 하단 컨트롤 -->
+				<div id="fs-footer"></div>						
+				
+			</div>
+		</div>
+	</div>
+ </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google" value="notranslate" />
+	
+	<!--css-->
+	<link type="text/css" href="../common/css/common.css" rel="stylesheet" />
+
+	<!-- page script set -->
+	<script type="text/javascript" src="../common/js/plugin/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<script>
+		
+
+		$(document).ready(function(){
+			var _hrefArray=location.href.split("/");
+	
+			//폴더/페이지
+			_chasi=_hrefArray[_hrefArray.length-2];
+			var _chasiArray=_chasi.split("_");
+			if(_chasiArray.length>1){
+				//학점은행의 경우 _ 로 구분하여 주차를 추출한다.
+				_jucha=parseInt(_chasiArray[0],10);
+				_chasi=parseInt(_chasiArray[1],10);
+			}else{
+				_chasi=parseInt(_chasi,10);
+			}
+			
+			if(_hrefArray[_hrefArray.length-1].indexOf("_")!=-1){
+				_page=parseInt(_hrefArray[_hrefArray.length-1].replace('.html','').substring(3,5),10);
+			}else{
+				_page=parseInt(_hrefArray[_hrefArray.length-1].replace('.html','').substring(0,2),10);
+			}
+
+			$(".iframe")[0].src="0"+_chasi+'_01.html';
+		});
+
+	</script>
+</head>
+	<body>
+		<div id="page">
+			<iframe class='iframe' width="1280px" height="756px" style="border: none;"></iframe>
+		</div>
+	</body>
+</html>

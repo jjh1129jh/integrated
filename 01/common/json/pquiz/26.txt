@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "지문 자페성 장애아는 대화의 유지에 어려움이 없다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "대화유지가 어렵다. 그리고 언어적 해석능력과 연결구사능력이 부족합니다.",
+            "right": "X"
+        }
+    ]
+}

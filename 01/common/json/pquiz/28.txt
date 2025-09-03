@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "강화가 포함된 놀이, 게임, 체력 운동이 가미된 사회성 기술을 발달시키는데 중점을 둔 활동들을 제공해야 한다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "동기유발과 단순화된 움직임 교육으로 행동발달에 중점을 둡니다.",
+            "right": "O"
+        }
+    ]
+}

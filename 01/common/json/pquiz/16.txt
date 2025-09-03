@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "근력을 향상시키기 위해서는 10회 이상 반복할 수 있는 강도로 수행해야 한다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "근력 향상을 위한 올바른 강도 설정은 6~8회 반복할 수 있는 강도입니다.",
+            "right": "X"
+        }
+    ]
+}

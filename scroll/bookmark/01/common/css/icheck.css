@@ -1,0 +1,516 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/icheck/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/icheck/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/icheck/img2.png");
+}
+
+.htmlPage .ichecks{
+	position: absolute;
+	top:1080px;
+	opacity:0;
+}
+.htmlPage .ichecks .icheckPage{
+	position: absolute;
+	width:960px;
+	height:540px;
+	
+	top:0px;
+	background:url("../img/icheck/question.png");
+}
+
+.htmlPage .ichecks button{
+	text-indent: -9999px;
+}
+
+/**/
+.htmlPage .ichecks .page0 .start{
+	position: absolute;
+	top:640px;
+	left:50%;
+	transform: translateX(-50%);
+	width:200px;
+	height:80px;
+	background:url("../img/icheck/qstart.png");
+}
+.htmlPage .ichecks .page0 .start:hover{
+	background-position-y:-80px;
+}
+
+/*question*/
+.htmlPage .ichecks .icheck.icheckPage .no{
+	position: absolute;
+	font-size: 100pt;
+	font-weight: 600;
+	
+	width:300px;
+	/*
+	height:130px;
+	*/
+
+	top:150px;
+	left:130px;
+	/*
+	background:url("../img/icheck/qno.png");
+	text-indent: -9999px;
+	*/
+
+	text-align: right;
+}
+/*
+.htmlPage .ichecks .page1 .no{background-position-x:0px;}
+.htmlPage .ichecks .page2 .no{background-position-x:-250px;}
+.htmlPage .ichecks .page3 .no{background-position-x:-500px;}
+.htmlPage .ichecks .page4 .no{background-position-x:-750px;}
+.htmlPage .ichecks .page5 .no{background-position-x:-1000px;}
+*/
+
+.htmlPage .ichecks .icheck .question{
+	display: none !important;
+	position: absolute;
+	width:1400px;
+	height:160px;
+	
+	top:119px;
+	left:460px;
+	
+	font-size: 26pt;
+	color:#000;
+	
+	display: flex;
+    align-items: flex-end;
+	justify-content:flex-start;
+    text-align: left;
+    
+    word-break:keep-all;
+}
+.htmlPage .ichecks .icheck .red{
+	color:#007bbd;
+	font-weight: 600;
+}
+
+/*sample*/
+.htmlPage .ichecks .icheck .sample{
+	position: absolute;
+	top:280px;
+	left:450px;
+	
+	width:1050px;
+	height:80px;
+	
+	background-color:transparent;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 20px;
+	
+	font-size: 20pt;
+	color:#000;
+}
+
+.htmlPage .ichecks .icheck .sample.imgsample{
+	position: absolute;
+	top:210px;
+	left:1300px;
+	
+	width:500px;
+	height:330px;
+	
+	background-color:transparent;
+	border: 2px solid #ccc;
+	border-radius: 0px;
+	padding: 20px;
+
+	text-align: center;
+}
+
+.htmlPage .ichecks .icheck .sample .scroll{
+	position: absolute;
+	width:1050px;
+	height:80px;
+	text-align: center;
+}
+
+/*btn*/
+.htmlPage .btns{
+	position: absolute;
+	top:320px;
+	left:450px;
+	
+	font-size: 28pt;
+}
+
+.htmlPage .btns button{
+	text-align: left;
+	text-indent:0px;
+}
+
+
+.htmlPage .btns.samplebtn{
+	top:410px;
+}
+.htmlPage .btns .btn{
+	margin: 15px 0px;
+	/*width:1090px;*/
+	cursor: pointer;
+	
+	display: flex;
+  	align-items: top;
+}
+.htmlPage .btns .btn .blit{
+	/*position: absolute;*/
+	display: inline-block;
+	width:45px;
+	height:45px;
+	background-color: #333333;
+	
+	border-radius:45px;
+	text-align: center;
+	color:#fff;
+	border: 2px solid #000;
+	
+	font-size: 22pt;
+	margin-right: 20px;
+}
+.htmlPage .btns .btn .txt{
+	/*
+	position: relative;
+    display:inline;
+	top:0px;
+	left:30px;
+	
+	left:50px;
+	*/
+	padding:4px 0px 0px 0px;
+	width:1300px;
+	color:#000;
+	word-break: keep-all;
+	
+	font-size: 22pt;
+}
+
+.htmlPage .btns .oxbtn0{
+	position: absolute;
+	width:290px;
+	height:370px;
+	
+	top:0px;
+	left:150px;
+	background:url("../img/icheck/qox.png");
+}
+.htmlPage .btns .oxbtn1{
+	position: absolute;
+	width:290px;
+	height:370px;
+	
+	top:0px;
+	left:570px;
+	background:url("../img/icheck/qox.png");
+	background-position-x:-290px;
+}
+
+.htmlPage .inputdiv{
+	position: absolute;
+}
+.htmlPage .inputfield{
+	font-size: 20pt;
+}
+/*check*/
+.htmlPage .btns .btn.check{
+	color:#000;
+}
+.htmlPage .btns .check .blit{
+	color:#fff;
+	background-color:#037abd;
+	border: 2px solid #037abd;
+}
+
+/*ok*/
+.htmlPage .btns .okview .blit{
+	color:#000;
+	background-color:transparent;
+	border: 2px solid #ff0000;
+}
+.htmlPage .btns .oxbtn0.check{
+	background-position-y:-370px;
+}
+.htmlPage .btns .oxbtn1.check{
+	background-position-y:-370px;
+}
+/*ok*/
+.htmlPage .ok{
+	position: absolute;
+	width:154px;
+	height:65px;
+	
+	bottom:360px;
+	right:300px;
+	background:url("../img/icheck/qok.png");
+}
+.htmlPage .ok:hover{
+	background-position-y:-65px;
+}
+
+/*feed*/
+.htmlPage .ichecks .icheck .feed0{
+	position: absolute;
+	width:200px;
+	height:200px;
+	
+	top:130px;
+	left:220px;
+	background:url("../img/icheck/qfeed0.png");
+	display: none;
+}
+
+/*hint*/
+.htmlPage .block{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	left:0px;
+	
+	display: none;
+}
+
+.htmlPage .ichecks .hint{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	left:0px;
+	
+	background:url("../img/icheck/qinfo.png");
+	display: none;
+}
+
+.htmlPage .ichecks .hint .right{
+	position: absolute;
+	bottom:130px;
+	left:203px;
+	
+	width:258px;
+	font-size: 40pt;
+	font-weight: 400;
+	text-align: center;
+    color:#fff
+
+}
+.htmlPage .ichecks .hint .infocon{
+	position: absolute;
+	bottom:216px;
+	left:490px;
+	width:800px;
+	font-size: 25pt;
+	color:#fff;
+
+	
+}
+
+.htmlPage .ichecks .icheck .infocon .scroll{
+	position: absolute;
+	width:1000px;
+	height:120px;
+	word-break: keep-all;
+}
+
+.htmlPage .ichecks .hint .next{
+	position: absolute;
+	width:180px;
+	height:60px;
+	
+	bottom:200px;
+	right:130px;
+	
+	background:url("../img/icheck/qnext.png");
+}
+
+.htmlPage .ichecks .hint .result{
+	position: absolute;
+	width:180px;
+	height:60px;
+	
+	bottom:160px;
+	right:220px;
+	
+	background:url("../img/icheck/qnext.png");
+	background-position-x:-180px;
+}
+
+.htmlPage .ichecks .hint button:hover{
+	background-position-y:-60px;
+}
+
+/*result*/
+.htmlPage .ichecks .resultPage{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	background:url("../img/icheck/result.png");
+}
+
+.htmlPage .resultPage .resultNo{
+	position: absolute;
+	top:200px;
+	left:615px;
+}
+.htmlPage .resultPage .resultNo .no{
+	position: absolute;
+	top:130px;
+	width:250px;
+	height:240px;
+	background:url("../img/icheck/qreturnno.png");
+	
+	text-indent: -9999px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(1){
+	left:250px;
+	background-position-x:0px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(2){
+	left:500px;
+	background-position-x:-250px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(3){
+	left:750px;
+	background-position-x:-500px;
+}
+
+.htmlPage .resultPage .resultFeed{
+	position: absolute;
+	top:350px;
+	left:615px;
+}
+
+.htmlPage .resultPage .resultFeed .feed{
+	position: absolute;
+	width:375px;
+	height:240px;
+	background:url("../img/icheck/qresult.png");
+}
+
+.htmlPage .resultPage .resultFeed .feed:nth-child(1){
+	left:131px;
+}
+.htmlPage .resultPage .resultFeed .feed:nth-child(2){
+	left:390px;
+}
+.htmlPage .resultPage .resultFeed .feed:nth-child(3){
+	left:643px;
+}
+	
+.htmlPage .resultPage .rtxt{
+	position: absolute;
+	top:620px;
+	left:932px;
+	color:#fff;
+	font-size: 30pt;
+}
+.htmlPage .resultPage .retry{
+	position: absolute;
+	width:240px;
+	height:80px;
+	
+	top:706px;
+	left:1049px;
+	background:url("../img/icheck/qretry.png");
+}
+
+.htmlPage .resultPage .retry:hover{
+	background-position-y:80px;
+}
+
+.htmlPage .resultPage.feedNone .rtxt{
+	top:420px;
+}
+.htmlPage .resultPage.feedNone .retry{
+	top:576px;
+}
+
+ul{
+	list-style:none;
+}
+
+img {
+	border:0;
+}
+
+.chkcon{
+	width:52px;
+	height:60px;
+	position: absolute;
+	left:194px;
+	pointer-events: auto;
+	cursor: pointer;
+	background: url(../img/icheck/chkcon_o.png);
+}
+
+.chkcon.clickcon{
+	background: url(../img/icheck/chkcon_h.png);
+}
+.chkcon.blackcon::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: 8px;
+	width:57px;
+	height:46px;
+	background-image: url(../img/icheck/chkred.png);
+}
+.chkcon1{top:374px;}
+.chkcon2{top:469px;}
+.chkcon3{top:619px;}
+.chkcon4{top:719px;}
+.chkcon5{top:868px;}
+
+.textcon{
+	position: absolute;
+	left:275px;
+	pointer-events: none;
+	z-index: 3;
+	transition: 1s;
+}
+
+.textcon1{top:380px;}
+.textcon2{top:476px;}
+.textcon3{top:626px;}
+.textcon4{top:726px;}
+.textcon5{top:875px;}
+
+
+.resultimg{
+	display: none;
+	position: absolute;
+	left:267px;
+	top:370px;
+	pointer-events: none;
+	z-index: 2;
+}
+.chkresult{
+	display: none;
+	position: absolute;
+	top:867px;
+	left:1620px;
+	width:192px;
+	height:95px;
+	background: url(../img/icheck/chkresult_o.png);
+}
+.chkresult:hover{
+	background: url(../img/icheck/chkresult_h.png);
+}

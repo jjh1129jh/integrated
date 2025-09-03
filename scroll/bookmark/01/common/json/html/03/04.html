@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google" value="notranslate" />
+	
+	<!--css-->
+	<link type="text/css" href="../common/json/html/common/css/common.css" rel="stylesheet"/>
+	<link type="text/css" href="../common/css/all.min.css" rel="stylesheet"/>
+	<link type="text/css" href="../common/css/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+	
+	<!--js-->
+	<script type="text/javascript" src="../common/js/plugin/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<script type="text/javascript" src="../common/js/plugin/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="../common/js/plugin/TweenMax.js"></script>
+	<script type="text/javascript" src="../common/js/plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+	
+	<!--page script set--> 
+	<script>
+		//var _tl;
+		var _timer;
+		var _sceneTime=[0,1,2]
+		var _sceneMax;
+		
+		$(document).ready(function(){
+			_sceneMax=$('.scene').length;
+			_timer=setInterval(timeUpdate,500);
+		});
+		
+		//
+		function timeUpdate(){
+			var _videoTime=_video.currentTime;
+			
+			$(".scene").hide();
+			for(_t=0;_t<_sceneTime.length;_t++){
+				if(_sceneTime[_t]<=_videoTime && _sceneTime[_t+1]){
+				   $(".scene").eq(_t).show();
+				}
+			}
+		}
+		
+		//
+		function url(u){
+			 window.open(u, "_blank");  
+		}
+	</script>
+</head>
+	<body>
+		<audio id='htmlEffect' preload='metadata'></audio>
+		<div>
+			<div class="scene" style="display:none;">
+			</div>
+			<div class="scene" style="display:none;">
+				<button class="btn_bottom_custom_00" onclick="url('https://si4n.nhis.or.kr/jpcb/JpCbc00101.do')"></button>
+			</div>
+			<div class="scene" style="display:none;">
+			</div>
+		</div>
+	</body>
+</html>

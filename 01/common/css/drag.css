@@ -1,0 +1,955 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/drag/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/drag/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/drag/img2.png");
+}
+
+.htmlPage .drags{
+	position: absolute;
+	top:1080px;
+	opacity:0;
+}
+.htmlPage .drags .dragPage{
+	position: absolute;
+	width:960px;
+	height:540px;
+	
+	top:0px;
+	background:url("../img/drag/question.png");
+}
+
+.htmlPage .drags button{
+	text-indent: -9999px;
+}
+
+/**/
+.htmlPage .drags .page0 .start{
+	position: absolute;
+	top:640px;
+	left:50%;
+	transform: translateX(-50%);
+	width:200px;
+	height:80px;
+	background:url("../img/drag/qstart.png");
+}
+.htmlPage .drags .page0 .start:hover{
+	background-position-y:-80px;
+}
+
+/*question*/
+.htmlPage .drags .drag.dragPage .no{
+	position: absolute;
+	font-size: 100pt;
+	font-weight: 600;
+	
+	width:300px;
+	/*
+	height:130px;
+	*/
+
+	top:150px;
+	left:130px;
+	/*
+	background:url("../img/drag/qno.png");
+	text-indent: -9999px;
+	*/
+
+	text-align: right;
+}
+/*
+.htmlPage .drags .page1 .no{background-position-x:0px;}
+.htmlPage .drags .page2 .no{background-position-x:-250px;}
+.htmlPage .drags .page3 .no{background-position-x:-500px;}
+.htmlPage .drags .page4 .no{background-position-x:-750px;}
+.htmlPage .drags .page5 .no{background-position-x:-1000px;}
+*/
+
+.htmlPage .drags .drag .question{
+	position: absolute;
+	width:1100px;
+	height:160px;
+	top: 190px;
+	left: 410px;
+	font-size: 26pt;
+	color:#2c73cb;
+	display: flex;
+  align-items: flex-end;
+	justify-content:flex-start;
+  word-break:keep-all;
+}
+.qtxt{
+	text-align: center;
+	font-family: 'darakbang';
+	font-size: 70px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 84px;
+}
+.htmlPage .drags .drag .red{
+	color:#007bbd;
+	font-weight: 600;
+}
+
+/*sample*/
+.htmlPage .drags .drag .sample{
+	position: absolute;
+	top:280px;
+	left:450px;
+	
+	width:1050px;
+	height:80px;
+	
+	background-color:transparent;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 20px;
+	
+	font-size: 20pt;
+	color:#000;
+}
+
+.htmlPage .drags .drag .sample.imgsample{
+	position: absolute;
+	top:210px;
+	left:1300px;
+	
+	width:500px;
+	height:330px;
+	
+	background-color:transparent;
+	border: 2px solid #ccc;
+	border-radius: 0px;
+	padding: 20px;
+
+	text-align: center;
+}
+
+.htmlPage .drags .drag .sample .scroll{
+	position: absolute;
+	width:1050px;
+	height:80px;
+	text-align: center;
+}
+
+/*btn*/
+.htmlPage .btns{
+	position: absolute;
+	top:320px;
+	left:450px;
+	
+	font-size: 28pt;
+}
+
+.htmlPage .btns button{
+	text-align: left;
+	text-indent:0px;
+}
+
+
+.htmlPage .btns.samplebtn{
+	top:410px;
+}
+.htmlPage .btns .btn{
+	margin: 15px 0px;
+	/*width:1090px;*/
+	cursor: pointer;
+	
+	display: flex;
+  	align-items: top;
+}
+.htmlPage .btns .btn .blit{
+	/*position: absolute;*/
+	display: inline-block;
+	width:45px;
+	height:45px;
+	background-color: #333333;
+	
+	border-radius:45px;
+	text-align: center;
+	color:#fff;
+	border: 2px solid #000;
+	
+	font-size: 22pt;
+	margin-right: 20px;
+}
+.htmlPage .btns .btn .txt{
+	/*
+	position: relative;
+    display:inline;
+	top:0px;
+	left:30px;
+	
+	left:50px;
+	*/
+	padding:4px 0px 0px 0px;
+	width:1300px;
+	color:#000;
+	word-break: keep-all;
+	
+	font-size: 22pt;
+}
+
+.htmlPage .btns .oxbtn0{
+	position: absolute;
+	width:290px;
+	height:370px;
+	
+	top:0px;
+	left:150px;
+	background:url("../img/drag/qox.png");
+}
+.htmlPage .btns .oxbtn1{
+	position: absolute;
+	width:290px;
+	height:370px;
+	
+	top:0px;
+	left:570px;
+	background:url("../img/drag/qox.png");
+	background-position-x:-290px;
+}
+
+.htmlPage .inputdiv{
+	position: absolute;
+}
+.htmlPage .inputfield{
+	font-size: 20pt;
+}
+/*check*/
+.htmlPage .btns .btn.check{
+	color:#000;
+}
+.htmlPage .btns .check .blit{
+	color:#fff;
+	background-color:#037abd;
+	border: 2px solid #037abd;
+}
+
+/*ok*/
+.htmlPage .btns .okview .blit{
+	color:#000;
+	background-color:transparent;
+	border: 2px solid #ff0000;
+}
+.htmlPage .btns .oxbtn0.check{
+	background-position-y:-370px;
+}
+.htmlPage .btns .oxbtn1.check{
+	background-position-y:-370px;
+}
+/*ok*/
+.htmlPage .ok{
+	position: absolute;
+	width:154px;
+	height:65px;
+	
+	bottom:360px;
+	right:300px;
+	background:url("../img/drag/qok.png");
+}
+.htmlPage .ok:hover{
+	background-position-y:-65px;
+}
+
+/*feed*/
+.htmlPage .drags .drag .feed0{
+	position: absolute;
+	width:500px;
+	height:500px;
+	z-index: 1;
+	top:126px;
+	left:710px;
+	background:url("../img/drag/qfeed0.png");
+	display: none;
+}
+
+/*hint*/
+.htmlPage .block{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	left:0px;
+	
+	display: none;
+}
+
+.htmlPage .drags .hint{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	z-index: 2;
+	top:0px;
+	left:0px;
+	
+	background:url("../img/drag/qinfo.png");
+	display: none;
+}
+
+.htmlPage .drags .hint .right{
+	position: absolute;
+	bottom:130px;
+	left:203px;
+	
+	width:258px;
+	font-size: 40pt;
+	font-weight: 400;
+	text-align: center;
+    color:#fff
+
+}
+.htmlPage .drags .hint .infocon{
+	position: absolute;
+	bottom: 241px;
+	left: 340px;
+	width: 800px;
+	font-size: 25pt;
+	color: #037abd;
+	font-weight: 600;
+
+	
+}
+
+.htmlPage .drags .drag .infocon .scroll{
+	position: absolute;
+	width:1000px;
+	height:120px;
+	word-break: keep-all;
+}
+
+.htmlPage .drags .hint .next{
+	display: none;
+	position: absolute;
+	width:180px;
+	height:60px;
+	
+	bottom:180px;
+	right:130px;
+	
+	background:url("../img/drag/qnext.png");
+	background-position-y:0px;
+}
+
+.htmlPage .drags .hint .next:hover{
+	background-position-y:-60px;
+}
+
+.htmlPage .drags .hint .result{
+	position: absolute;
+	width:180px;
+	height:60px;
+	
+	bottom:160px;
+	right:220px;
+	
+	background:url("../img/drag/qnext.png");
+	background-position-x:-180px;
+}
+
+.htmlPage .drags .hint button:hover{
+	background-position-y:-60px;
+}
+
+/*result*/
+.htmlPage .drags .resultPage{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	background:url("../img/drag/result.png");
+}
+
+.htmlPage .resultPage .resultNo{
+	position: absolute;
+	top:200px;
+	left:615px;
+}
+.htmlPage .resultPage .resultNo .no{
+	position: absolute;
+	top:130px;
+	width:250px;
+	height:240px;
+	background:url("../img/drag/qreturnno.png");
+	
+	text-indent: -9999px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(1){
+	left:250px;
+	background-position-x:0px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(2){
+	left:500px;
+	background-position-x:-250px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(3){
+	left:750px;
+	background-position-x:-500px;
+}
+
+.htmlPage .resultPage .resultFeed{
+	position: absolute;
+	top:350px;
+	left:615px;
+}
+
+.htmlPage .resultPage .resultFeed .feed{
+	position: absolute;
+	width:375px;
+	height:240px;
+	background:url("../img/drag/qresult.png");
+}
+
+.htmlPage .resultPage .resultFeed .feed:nth-child(1){
+	left:131px;
+}
+.htmlPage .resultPage .resultFeed .feed:nth-child(2){
+	left:390px;
+}
+.htmlPage .resultPage .resultFeed .feed:nth-child(3){
+	left:643px;
+}
+	
+.htmlPage .resultPage .rtxt{
+	position: absolute;
+	top:620px;
+	left:932px;
+	color:#fff;
+	font-size: 30pt;
+}
+.htmlPage .resultPage .retry{
+	position: absolute;
+	width:240px;
+	height:80px;
+	
+	top:640px;
+	left:50%;
+	transform: translateX(-50%);
+	background:url("../img/drag/qretry.png");
+}
+
+.htmlPage .resultPage .retry:hover{
+	background-position-y:80px;
+}
+
+.htmlPage .resultPage.feedNone .rtxt{
+	top:420px;
+}
+.htmlPage .resultPage.feedNone .retry{
+	top:576px;
+}
+
+/* 드래그 관련 css 추가 */
+
+#dragBox{
+	position:absolute;
+	width :1920px;
+	height: 1080px;
+	bottom:40px;
+	left:50%;
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+#dBox{
+	width:100%;
+	height:100%;
+	position:relative;
+	pointer-events: none;
+}
+#selectBox1,#selectBox2,#selectBox3,#selectBox4,#selectBox5,#selectBox6,#selectBox7,#selectBox8{
+	position:absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+    left: 0;
+    top: 0;
+		pointer-events: none;
+}
+.textbox{
+	user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+}
+
+.resulttextleft{
+	position: absolute;
+	top:408px;
+	left:680px;
+	width:243px;
+	text-align: center;
+	font-family: 'Black Han Sans';
+	font-size: 230px;
+	color:#2c73cb;
+	/* transition: 1s; */
+}
+.resulttextright{
+	top:408px;
+	left:994px;
+	width:243px;
+	text-align: center;
+	font-family: 'Black Han Sans';
+	font-size: 230px;
+	color:#2c73cb;
+	/* transition: 1s; */
+}
+
+.draginfo{
+	top: 160px;
+	left: 160px;
+	width: 770px;
+	text-align: left;
+	font-family: 'darakbang';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: #f0a000;
+	letter-spacing: -1px;
+	/* text-shadow: 2px 2px 2px #d1cfac; */
+}
+
+.trynum{
+	top: 618px;
+	left: 1544px;
+	width:243px;
+	text-align: left;
+	font-family: 'darakbang';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color:#f0a000;
+}
+
+/* 좌측 하단 공백구역 */
+#vacuum1,#vacuum2,#vacuum3,#vacuum4,#vacuum5,#vacuum6,#vacuum7,#vacuum8{
+	/* position:absolute; */
+    width: 1920px;
+    height: 1080px;
+		pointer-events: none;
+  	/* bottom: 80px; */
+		/* left: 60px; */
+}
+#vacuum1 div,#vacuum2 div,#vacuum3 div,#vacuum4 div,#vacuum5 div,#vacuum6 div,#vacuum7 div{
+	position: absolute;
+	pointer-events: auto;
+    display: inline-block;
+}
+#vacuum0101{
+	left:682px;
+	top:418px;
+	width:243px;
+	height: 241px;
+	background: red;
+	opacity: 0;
+}
+#vacuum0102{
+	display: none;
+	left:682px;
+	top:418px;
+	width:243px;
+	height: 241px;
+	background: red;
+	opacity: 0;
+}
+#vacuum0103{
+	left:992px;
+	top:418px;
+	width:243px;
+	height: 241px;
+	background: blue;
+	opacity: 0;
+}
+#vacuum0104{
+	display: none;
+	left:992px;
+	top:418px;
+	width:243px;
+	height: 241px;
+	background: blue;
+	opacity: 0;
+}
+
+#vacuum0105{
+	display: none;
+	left:992px;
+	top:418px;
+	width:243px;
+	height: 241px;
+	background: blue;
+	opacity: 0;
+}
+
+/* 우측 셀렉트 박스 */
+#selectno1, #selectno2, #selectno3, #selectno4, #selectno5, #selectno6, #selectno7, #selectno8{
+	position: relative;
+	width:100%;
+	height:100%;
+	pointer-events: none;
+}
+#selectno1 div,#selectno2 div, #selectno3 div, #selectno4 div, #selectno5 div, #selectno6 div, #selectno7 div, #selectno8 div{
+	cursor: pointer;
+	position:absolute;
+	display: block;
+	pointer-events: auto;
+}
+
+
+/*드래그 객체*/
+.isDragObj{
+	text-indent: -10000em;
+}
+.isDragObj.off{
+	pointer-events: none;
+}
+/*드랍 객체*/
+.isDropObj{
+	text-indent: -10000em;
+}
+/* .isDropObj{
+	text-indent: -10000em;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+} */
+.isDropObj.off{
+		
+}
+
+#object0101{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㄱ.png);
+	background-size: 116px 116px;
+  left: 122px;
+  top:734px;
+}
+
+#object0102{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㄴ.png);
+	background-size: 116px 116px;
+  left: 246px;
+  top:734px;
+}
+
+#object0103{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㄷ.png);
+	background-size: 116px 116px;
+  left: 370px;
+  top:734px;
+}
+
+#object0104{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㄹ.png);
+	background-size: 116px 116px;
+  left: 494px;
+  top:734px;
+}
+
+#object0105{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅁ.png);
+	background-size: 116px 116px;
+  left: 618px;
+  top:734px;
+}
+
+#object0106{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅂ.png);
+	background-size: 116px 116px;
+  left: 742px;
+  top:734px;
+}
+
+#object0107{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅅ.png);
+	background-size: 116px 116px;
+  left: 865px;
+  top:734px;
+}
+
+#object0108{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅇ.png);
+	background-size: 116px 116px;
+  left: 122px;
+  top:860px;
+}
+
+#object0109{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅈ.png);
+	background-size: 116px 116px;
+  left: 246px;
+  top:860px;
+}
+
+#object0110{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅊ.png);
+	background-size: 116px 116px;
+  left: 370px;
+  top:860px;
+}
+
+#object0111{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅋ.png);
+	background-size: 116px 116px;
+  left: 494px;
+  top:860px;
+}
+
+#object0112{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅌ.png);
+	background-size: 116px 116px;
+  left: 618px;
+  top:860px;
+}
+
+#object0113{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅍ.png);
+	background-size: 116px 116px;
+  left: 742px;
+  top:860px;
+}
+
+#object0114{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅎ.png);
+	background-size: 116px 116px;
+  left: 865px;
+  top:860px;
+}
+
+#object0115{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅏ.png);
+	background-size: 116px 116px;
+  left: 1064px;
+  top:734px;
+}
+
+#object0116{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅑ.png);
+	background-size: 116px 116px;
+  left: 1188px;
+  top:734px;
+}
+
+#object0117{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅓ.png);
+	background-size: 116px 116px;
+  left: 1312px;
+  top:734px;
+}
+
+#object0118{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅕ.png);
+	background-size: 116px 116px;
+  left: 1435px;
+  top:734px;
+}
+
+#object0119{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅗ.png);
+	background-size: 116px 116px;
+  left: 1559px;
+  top:734px;
+}
+
+#object0120{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅛ.png);
+	background-size: 116px 116px;
+  left: 1683px;
+  top:734px;
+}
+
+#object0121{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅜ.png);
+	background-size: 116px 116px;
+  left: 1188px;
+  top:860px;
+}
+
+#object0122{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅠ.png);
+	background-size: 116px 116px;
+  left: 1312px;
+  top:860px;
+}
+
+#object0123{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅡ.png);
+	background-size: 116px 116px;
+  left: 1435px;
+  top:860px;
+}
+
+#object0124{
+	width:116px;
+	height: 116px;
+	background: url(../img/drag/01/ㅣ.png);
+	background-size: 116px 116px;
+  left: 1559px;
+  top:860px;
+}
+
+/* 호버 */
+
+#object0101:hover{background: url(../img/drag/01/ㄱ_hover.png);}
+#object0102:hover{background: url(../img/drag/01/ㄴ_hover.png);}
+#object0103:hover{background: url(../img/drag/01/ㄷ_hover.png);}
+#object0104:hover{background: url(../img/drag/01/ㄹ_hover.png);}
+#object0105:hover{background: url(../img/drag/01/ㅁ_hover.png);}
+#object0106:hover{background: url(../img/drag/01/ㅂ_hover.png);}
+#object0107:hover{background: url(../img/drag/01/ㅅ_hover.png);}
+#object0108:hover{background: url(../img/drag/01/ㅇ_hover.png);}
+#object0109:hover{background: url(../img/drag/01/ㅈ_hover.png);}
+#object0110:hover{background: url(../img/drag/01/ㅊ_hover.png);}
+#object0111:hover{background: url(../img/drag/01/ㅋ_hover.png);}
+#object0112:hover{background: url(../img/drag/01/ㅌ_hover.png);}
+#object0113:hover{background: url(../img/drag/01/ㅍ_hover.png);}
+#object0114:hover{background: url(../img/drag/01/ㅎ_hover.png);}
+#object0115:hover{background: url(../img/drag/01/ㅏ_hover.png);}
+#object0116:hover{background: url(../img/drag/01/ㅑ_hover.png);}
+#object0117:hover{background: url(../img/drag/01/ㅓ_hover.png);}
+#object0118:hover{background: url(../img/drag/01/ㅕ_hover.png);}
+#object0119:hover{background: url(../img/drag/01/ㅗ_hover.png);}
+#object0120:hover{background: url(../img/drag/01/ㅛ_hover.png);}
+#object0121:hover{background: url(../img/drag/01/ㅜ_hover.png);}
+#object0122:hover{background: url(../img/drag/01/ㅠ_hover.png);}
+#object0123:hover{background: url(../img/drag/01/ㅡ_hover.png);}
+#object0124:hover{background: url(../img/drag/01/ㅣ_hover.png);}
+
+/* 체크 관련 css 추가 */
+
+
+ul{
+	list-style:none;
+}
+
+img {
+	border:0;
+}
+
+.chkcon{
+	width:52px;
+	height:60px;
+	position: absolute;
+	left:194px;
+	pointer-events: auto;
+	cursor: pointer;
+	background: url(../img/icheck/chkcon_o.png);
+}
+
+.chkcon.clickcon{
+	background: url(../img/icheck/chkcon_h.png);
+}
+.chkcon.blackcon::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: 8px;
+	width:57px;
+	height:46px;
+	background-image: url(../img/icheck/chkred.png);
+}
+.chkcon1{top:374px;}
+.chkcon2{top:469px;}
+.chkcon3{top:619px;}
+.chkcon4{top:719px;}
+.chkcon5{top:868px;}
+
+.textcon{
+	position: absolute;
+	left:275px;
+	pointer-events: none;
+	z-index: 3;
+	transition: 1s;
+}
+
+.textcon1{top:380px;}
+.textcon2{top:476px;}
+.textcon3{top:626px;}
+.textcon4{top:726px;}
+.textcon5{top:875px;}
+
+
+.resultimg{
+	display: none;
+	position: absolute;
+	left:267px;
+	top:370px;
+	pointer-events: none;
+	z-index: 2;
+}
+.chkresult{
+	display: none;
+	position: absolute;
+	top:867px;
+	left:1620px;
+	width:192px;
+	height:95px;
+	background: url(../img/icheck/chkresult_o.png);
+}
+.chkresult:hover{
+	background: url(../img/icheck/chkresult_h.png);
+}
+
+.page2 .question{
+	display: none !important;
+}
+
+.page2.dragPage{
+	background: url(../img/drag/question2.png) !important;
+}

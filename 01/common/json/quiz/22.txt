@@ -1,0 +1,52 @@
+﻿{
+    "quiz": [
+        {
+            "type": "01",
+            "question": "자폐성 장애의 특성이 아닌 것은?",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "사회적 상호작용의 결여 또는 부적절성",
+                    "list1": "의사소통에서의 부적절함",
+                    "list2": "상징적인 놀이의 결여",
+                    "list3": "선택적 함구",
+                    "list4": ""
+                }
+            ],
+            "explanation": "선택적 함구는 불안장애의 특성이다.",
+            "right": "4"
+        },
+        {
+            "type": "01",
+            "question": "자폐증을 가진 아동의 ( )행동은 심하게 손상되었다고 보면 됩니다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "문화적",
+                    "list1": "사회적",
+                    "list2": "심리적",
+                    "list3": "과학적",
+                    "list4": ""
+                }
+            ],
+            "explanation": "사회적 행동은 상호 작용이 미발달과 미성숙",
+            "right": "2"
+        },
+        {
+            "type": "01",
+            "question": "자폐성 장애인이 추상적인 생각이 어려운 이유는 (    )학습자이기 때문이다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "시각적",
+                    "list1": "청각적",
+                    "list2": "촉각적",
+                    "list3": "오감적",
+                    "list4": ""
+                }
+            ],
+            "explanation": "현상학적 현상을 보고 체험을 통해 인지가 확장 추상적 개념의 접근은 어렵다.",
+            "right": "1"
+        }
+    ]
+}

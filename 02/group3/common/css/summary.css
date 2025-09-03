@@ -1,0 +1,33 @@
+
+/**	내용 컨텐츠		**/
+/*	#fs-content{	width:1012px;height:585px;	margin:auto;display:block;position:relative;	}*/
+/*	.content_inner{	width:1012px;height:540px;	box-sizing:border-box;	z-index:7;position:absolute;left:0;top:45px;	display:none;} */
+/*	.content_inner #htmlShow */
+
+	#fs-content div#summary{width:100%;height:720px;background:url("./img/page/summary_bg.png");}/*코딩**/
+	
+	#fs-content div#summary section{display:none}
+	#summary .summary-inner{width:100%;box-sizing:border-box;}
+	#summary .top_title{color:#514E4E;font-weight:bolder;font-size:16pt;display:inline-block;border-bottom:2px solid #DB7B07;
+		padding-left:40px;position:absolute;top:85px;vertical-align:baseline}
+	#summary .top_title span{line-height:30px;vertical-align:bottom}
+
+	#summary .sum-list-box {position:absolute;left:0px;top:0px;}
+	#summary .sum-list-box ul{}
+	#summary .sum-list-box ul li{margin-bottom:10px;font-size:13.5pt;color:#514E4E;word-break:keep-all}
+	#summary .sum-list-box ul li em{margin-left: -40px;;font-weight:bold;background:url("./img/page/sum_list_bg.png") no-repeat;width:25px;height:25px;display:inline-block;color:#fff;text-align:center;line-height:25px}
+	#summary .sum-list-box ul li span{padding-left:10px;line-height:1.3}
+	#summary .sum-list-box ul li div{}
+	#summary .sum-list-box ul li div span{display:block;margin:6px 0;text-indent:-13px;line-height:1.4;font-size:13.5pt;}/*짝대기 있는 부분*/
+
+	#summary .sum_paging{position:absolute;bottom:40px;left:0px;width:100%;z-index:5}
+	#summary .sum_paging ul{text-align:center;margin:auto}
+	#summary .sum_paging ul li{display:inline-block;width:30px;font-size:14pt;color:#1C1C1C;line-height:39px}
+	#summary .sum_paging ul li.sum_curPage{color:#F86264;font-size:24pt;font-weight:bolder;line-height:30px}
+
+	#summary .arrow{cursor:pointer;position:absolute;bottom:50px;z-index:10}
+	#summary .arrow.preArrow{left:440px;}
+	#summary .arrow.nexArrow{left:540px;}
+	
+	#summary .top_button{position:absolute;right:54px; top:88px}
+	#summary .top_button div{display:inline-block;margin-left:10px;}

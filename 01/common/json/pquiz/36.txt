@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "규칙을 변형 시 모든 학생들이 수용할 수 있는 범위 내에서 이루어지는 것이 중요하다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "개인별 인지 수준이 다르기에 유연한 적용과 규칙의 변형이 효과적입니다.",
+            "right": "O"
+        }
+    ]
+}

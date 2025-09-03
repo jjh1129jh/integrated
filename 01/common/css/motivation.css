@@ -1,0 +1,86 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/motivation/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/motivation/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/motivation/img2.png");
+}
+
+.htmlPage .info{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+
+.info .info_blit{
+	position: absolute;
+	top:400px;
+	left:200px;
+	
+	width:5px;
+	height:60px;
+	
+	background-color: #3e71e0;
+}
+
+.info .info0{
+	position: absolute;
+	top:400px;
+	left:220px;
+	font-size: 30pt;
+	font-weight: 600;
+}
+.info .info1{
+	position: absolute;
+	top:960px;
+	left:50px;
+	font-size: 16pt;
+	
+	background-color: aqua;
+}
+.info .info1 .icon{
+	position: absolute;
+	width:100px;
+	
+	color:#fff;
+	background-color: #666;
+	
+	text-align: center;
+}
+.info .info1 .txt{
+	position: absolute;
+	left:110px;
+	
+	width:1810px;
+}
+.info button{
+	position: absolute;
+	left:200px;
+	top:500px;
+	
+	width:200px;
+	height:50px;
+	
+	background-color: #ccc;
+	font-size: 16pt;
+}
+.info button:hover{
+	color:#fff;
+	background-color: #3e71e0;
+}
+.info .link2{
+	
+}

@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "세계보건기구(WHO)는 장애의 개념을 신체적 손상, 능력장애, 심리적 장애로 구분하여 해석하였다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "1981년 세계보건기구는 장애에 대한 발생과정을 신체적 손상(impairment), </br>능력장애,(disability), 사회적 장애(handicap)의 개념으로 정의하였습니다.",
+            "right": "X"
+        }
+    ]
+}

@@ -1,0 +1,479 @@
+{
+   "metadata":[
+      {
+         "template":[
+            {
+               
+            }
+         ]
+      },
+      {
+         "path":[
+            {
+               "mp4":"../common/mp4/",
+               "mp3":"../common/mp3/",
+               "rtmp":"",
+               "mobile":"../common/mp4/",
+               "kollus":""
+            }
+         ]
+      },
+      {
+         "custom":[
+            {
+               "client":"hunet",
+               "title":"다락",
+               "Etitle":"darack",
+               "logo":"../common/img/custom/logo.png",
+               "width":"1920",
+               "height":"1080",
+               "bgcolor":"#fff",
+               "bgPath":"",
+               "useSkipFunc":"Y",
+               "skipMove":"true",
+               "skipStartSec":"0:0",
+               "skipEndSec":"",
+               "frameThick":"0",
+               "frameColor":"#ffffff",
+               "frameOpacity":"1",
+               "bottomHeight":"54",
+               "bottomColor":"#020",
+               "bottomBtnWidth":"60",
+               "bottomButtons":"play, script, full, rate, PIP, mute,down, mark, markdel, vrtransform",
+               "bottomEtcButtons":"index",
+               "bottomProgressCustom":"true",
+               "bottomProgressVerticalAlign":"over",
+               "bottomProgressLeft":"0",
+               "bottomProgressWidth":"1850",
+               "bottomProgressHeight":"3",
+               "bottomProgressRadius":"0",
+               "bottomProgressAreaColor":"#fff",
+               "bottomProgressFillColor":"#027bbd",
+               "bottomProgressPoint":"point",
+               "bottomScriptCustom":"true",
+               "bottomScriptWidth":"1920",
+               "bottomScriptHeight":"80",
+               "bottomScriptRadius":"0",
+               "bottomScriptOpacity":"1",
+               "bottomScriptAreaY":"1",
+               "bottomScriptTime":"true",
+               "bottomVolum":"v",
+               "bottomEndType":"normal",
+               "rateType":"R02",
+               "topAlign":"left",
+               "indexType":"sub",
+               "indexDesignType":"img",
+               "indexAlignType":"left",
+               "indexEtc":"",
+               "additionalSlide":"",
+               "additional":"keyboard",
+               "teachers":"1",
+               "teacher_path":"teacher1.png, , , , , , , , ",
+               "summayType":"none",
+               "summayBtn":"",
+               "introImgTime":"2.5",
+               "introImg":[
+                  {
+                     "opacity":1
+                  }
+               ],
+               "roadImgTime":"0.5,1,1.1",
+               "roadImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "opacity":1
+                  }
+               ],
+               "pquizImgTime":"0.5,1",
+               "pquizImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "wordImgTime":"0.1,0.5",
+               "wordImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "goalImgTime":"0.1,0.5,1,2",
+               "goalImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  }
+               ],
+               "teacherImgTime":"0.1,0.5,1,2,3",
+               "teacherImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  }
+               ],
+               "prevImgTime":"0.1,0.5,1,2,3",
+               "prevImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "display":"block"
+                  }
+               ],
+               "afterImgTime":"0.1,0.5,1,2,3",
+               "afterImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "display":"block"
+                  }
+               ],
+               "quizImgTime":"0.1,1,1.5",
+               "quizImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "dragImgTime":"0.1,1,1.5",
+               "dragImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "lineImgTime":"0.1,1,1.5",
+               "lineImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "icheckImgTime":"0.1,1,1.5",
+               "icheckImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "vrmp4ImgTime":"0.1,1,1.5",
+               "vrmp4Img":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "puzzleImgTime":"0.1,1,1.5",
+               "puzzleImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ],
+               "summaryImgTime":"0.5,1,1.5",
+               "summaryImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "opacity":1
+                  }
+               ],
+               "outText":true,
+               "outImgTime":"1,2,3",
+               "outImg":[
+                  {
+                     "opacity":1
+                  },
+                  {
+                     "left":0,
+                     "opacity":1
+                  },
+                  {
+                     "top":0,
+                     "opacity":1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "pages": [
+            {
+               "chasi": [
+                  {
+                     "page": [
+                        {
+                           "module": "01",
+                           "title0": "장애인과 스포츠의 이해",
+                           "title1": "마무리하기",
+                           "title2": "마무리하기",
+                           "url": "A01_01.mp4",
+                           "type": "drag"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "chasi": [
+                  {
+                     "page": [
+                        {
+                           "module": "02",
+                           "title0": "장애인과 스포츠의 이해",
+                           "title1": "마무리하기",
+                           "title2": "마무리하기",
+                           "url": "A02_01.mp4",
+                           "type": "line"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "chasi": [
+                  {
+                     "page": [
+                        {
+                           "module": "03",
+                           "title0": "장애인과 스포츠의 이해",
+                           "title1": "2D Only",
+                           "title2": "인트로",
+                           "url": "A03_01.mp4",
+                           "type": "mp4"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "03",
+                           "title0": "장애인과 스포츠의 이해",
+                           "title1": "VR + 2D",
+                           "title2": "마무리하기",
+                           "url": "A03_02.mp4",
+                           "type": "vrmp4"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "chasi": [
+                  {
+                     "page": [
+                        {
+                           "module": "04",
+                           "title0": "장애인과 스포츠의 이해",
+                           "title1": "마무리하기",
+                           "title2": "마무리하기",
+                           "url": "A04_01.mp4",
+                           "type": "puzzle"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "chasi": [
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "시작하기",
+                           "title2": "인트로",
+                           "url": "A05_01.mp4",
+                           "type": "mp4"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "시작하기",
+                           "title2": "오늘의 이야기",
+                           "url": "A05_02.mp4",
+                           "type": "mp4"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "학습하기",
+                           "title2": "지체장애인의 심리ㆍ행동적 특성 이해",
+                           "url": "A05_03.mp4",
+                           "type": "pquiz"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "학습하기",
+                           "title2": "지체장애인의 신체적 특성과 지도법",
+                           "url": "A05_04.mp4",
+                           "type": "mp4"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "마무리하기",
+                           "title2": "평가하기",
+                           "url": "A05_05.mp4",
+                           "type": "quiz"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "마무리하기",
+                           "title2": "정리하기",
+                           "url": "A05_06.mp4",
+                           "type": "mp4"
+                        }
+                     ]
+                  },
+                  {
+                     "page": [
+                        {
+                           "module": "05",
+                           "title0": "장애유형별 특성과 교육 원리",
+                           "title1": "마무리하기",
+                           "title2": "마무리하기",
+                           "url": "A05_07.mp4",
+                           "type": "mp4"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="./css/default.css">
+		<script src="./js/jquery-1.9.1.min.js"></script>
+		<script src="./js/classList.min.js"></script>
+		<script src="./js/function.js"></script>
+		<script src="./js/config.js"></script>
+		<title>인터렉티브 요소</title>
+		<link rel="stylesheet" href="css/default.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="top">
+			<div id="main-top" class="">
+				<p>인터렉티브 요소 (드래그앤드롭+체크), (줄긋기), (북마크)</p>
+			</div>
+			<div id="main-top-menu">
+				<div class="tabMenu">
+					<ul class="tabs">
+						<!-- <li class="" rel="tab1">국제 태권도사범 3급</li>
+						<li class="" rel="tab2">국제 태권도사범 2급</li>
+						<li class="" rel="tab3">국제 태권도사범 1급</li>
+						<li class="" rel="tab4">장애인 태권도사범 3급</li>
+						<li class="" rel="tab5">4품 4단</li>
+						<li class="" rel="tab6">호신술</li> -->
+					</ul>
+				</div>
+			</div>
+			</div>
+			<div id="main">
+				<div id="board_list">
+					<ul class="board_top">
+						<li>No.</li>
+						<li>차시명</li>
+						<li>완료여부</li>
+					</ul>
+					<div id="board_contents_list">
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<!-- <div id="foot_btn"><button>컨텐츠가 보이지 않을때</button><button>팝업 차단 기능 해제</button></div> -->
+				<!-- <div id="copyright">
+				 TEL 02.332.9589 / FAX 0504-231-3903 / COPYRIGHT(C) <a href="http://www.darakcompany.com" target="_blink"><span id="copyright">DARAKCOMPANY</span></a> ALL RIGHTS RESERVED.
+				 <a href="http://www.darakcompany.com" target="_blink"><img src="images/footer_logo.jpg" alt="My Image" width="275" height="75"></a></div>
+			</div> -->
+
+
+
+		</div>
+		<script>
+			var url = "";
+			
+			function popup_cont(url, w, h) {
+				//alert(w+"/"+h);
+				window.open(url,"popup","width="+w+",height="+h+",toolbar=0, menubar=0, resizable=yes, location=no, scrollbars=0, top=0, left=0, frameborder=0");
+			}
+			
+			function set_list(no) {
+				var total_list = "";
+				var tab_length = contents_list[no].length;
+				var count = 0;
+				for(var i=1; i<tab_length; i++){
+					count++;
+					var ok_icon = "";
+					var ok_link = '<p>'+contents_list[no][i][0]+'</p>'
+					
+					if(contents_list[no][i][1]) {
+						ok_icon = '<img src="./css/ok.png">';
+						ok_link = '<a href="javascript:popup_cont(\''+contents_list[no][i][2]+'\','+contents_list[no][i][4]+','+contents_list[no][i][5]+')">'+contents_list[no][i][0]+'</a>';
+					}
+					if(contents_list[no][i][3] == 1) {
+						total_list += '<ul class="board_contents">'
+									+ '<li class="end01">'+count+'</li>'
+									+ '<li class="end01">'+ok_link+'</li>'
+									+ '<li class="end01">'+ok_icon+'</li>'
+									+ '</ul>';
+						count = 0;
+					}else {
+						total_list += '<ul class="board_contents">'
+									+ '<li>'+count+'</li>'
+									+ '<li>'+ok_link+'</li>'
+									+ '<li>'+ok_icon+'</li>'
+									+ '</ul>';
+					}
+				}
+				total_list += '<ul class="board_end"><li></li><li></li><li></li></ul>';
+				$("#board_contents_list").html(total_list);
+			}
+			
+			var tab_no = 1;
+			set_list(tab_no);
+			
+			$("ul.tabs li").click(function() {
+				$("ul.tabs li").removeClass("active");
+				$(this).addClass("active");
+				$(".tab_content").hide();
+				var activeTab = $(this).attr("rel");
+				$("#" + activeTab).show();
+				
+				var tab_no = activeTab.slice(3,5);
+				set_list(tab_no);
+			});
+			
+			function onScroll() {
+				function callbackFunc() 
+				{
+					var y = window.pageYOffset;
+					if (y > 100) {
+						$("#main-top").addClass("scroll");
+					} else {
+						$("#main-top").removeClass("scroll");
+					}
+				}
+				window.addEventListener("scroll", callbackFunc);
+			}
+			onScroll();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+button{
+	overflow:hidden;
+	border:none;
+	cursor: pointer;
+}
+
+.btn_bottom_custom_00{
+	position: absolute;
+	top:930px;
+	left:230px;
+	width:750px;
+	height:40px;
+	//background-color: #ff0000;
+	//opacity: 0.5
+}

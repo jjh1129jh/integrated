@@ -1,0 +1,53 @@
+﻿<table class="one3"><tr><td class="blit"></td><td class="txt">영유아 구강검진</td></tr></table>
+<table class="two"><tr><td class="blit"></td><td class="txt">아동의 연령에 맞는 올바른 구강건강관리행동을 중심 시기별 교육내용</td></tr></table>
+<table class="two"><tr><td class="blit"></td><td class="txt">영유아 구강검진 서식의 기본구성인 치아검사, 치아우식검사</td></tr></table>
+<table class="two"><tr><td class="blit"></td><td class="txt">영유아 구강검진 결과통보서 서식의 구성과 종합소견, 구강검진 결과, 치아우식위험도 작성 방법</td></tr></table>
+<table class="two"><tr><td class="blit"></td><td class="txt">2023년 결과통보서 서식 개정</td></tr></table>
+
+<table class="three"><tr><td class="blit"></td><td class="txt">구강검진 판정 시 양호, 주의, 추가 검사 필요로 표현 개선</td></tr></table>
+<table class="three"><tr><td class="blit"></td><td class="txt">치아우식 위험도, 건강 신호등 추가 (보호자에게 안내)</td></tr></table>
+
+<table class="two"><tr><td class="blit"></td><td class="txt">영유아 치아우식위험도의 건강신호등 판정</td></tr></table>
+<table class="table">
+	<tr>
+		<td width='100px' style="text-align: center;" rowspan="5">치아우식 위험도</td>
+		<td width='100px' style="text-align: center;">구강위생관리(칫솔질 횟수, 잠자기전 칫솔질, 구강보조용품)</td>
+		<td>ㆍ안전: (18-29개월) 보호자가 규칙적으로 아이의 이를 닦아주고, 칫솔질 1일 2회 이상을 모두 만족할 경우(30~41, 42-53, 54-65개월) 보호자가 규칙적으로 아이의 이를 닦아주고, 칫솔질 1일 2회 이상이며, 잠자기 전 칫솔질 실천을 모두 만족할 경우<br/>ㆍ주의: 안전과 위험에 해당하지 않는 경우<br/>ㆍ위험: (18-29개월) 칫솔질 횟수가 1주 1회 미만, (30,~41개월, 42-53개월, 54-65개월) 칫솔질 횟수 1일 1회 미만</td>
+	</tr>
+    
+	<tr>
+		<td style="text-align: center;">불소 이용(불소 치약, 치약 사용량, 불소도포, 불소효과교육)</td>
+		<td>
+			ㆍ안전: 불소 치약 사용, 치약 적정량 사용(18-29개월, 31~40개월= 쌀알 크기, 42-53개월, 54-65개월 = 완두콩 크기)주기적 불소도포.(31~40개월, 42-53개월, 54-65개월만) 충치 예방을 위한 불소 사용 교육 경험 모두 만족하는 경우<br/>
+			ㆍ주의: 안전과 위험에 해당하지 않는 경우
+		</td>
+	</tr>
+    
+    <tr>
+		<td style="text-align: center;">설탕 섭취(당분 간식/ 음료)</td>
+		<td>
+			ㆍ안전: 당분 함유 간식/음료 섭취 하루 1회 이하<br/>
+			ㆍ주의: 당분 함유 간식/음료 섭취 하루 2-3회<br/>
+            ㆍ위험: 당분 함유 간식/음료 섭취 하루 4회 이상
+		</td>
+	</tr>
+    
+    <tr>
+		<td style="text-align: center;">생활습관(정기구강검진, 분유병 사용)</td>
+		<td>
+			ㆍ안전: 최근 검진 예방 목적으로 치과 방문 있으며, (18-29개월 만) 분유병 더 이상 사용하지 않음.<br/>
+			ㆍ주의 : 최근 검진 예방 목적의 치과방문 없을 시<br/>
+            ㆍ위험: (18-29개월만) 분유병 계속 사용 시
+		</td>
+	</tr>
+    
+    <tr>
+		<td style="text-align: center;">병력(가족우식경험, 전신 건강)</td>
+		<td>
+			ㆍ안전: 아이 부모님이나 형제 자매 중 현재 우식없고, 치과질환 제외 질병이 없고 약 복용을 하지 않는 경우<br/>
+			ㆍ주의: 치과질환 제외 질병 있거나 약 복용 중<br/>
+            ㆍ위험: 아이 부모님이나 형제 자매 중 현재 우식 치아가 있는 경우
+		</td>
+	</tr>
+</table>
+[/]pop

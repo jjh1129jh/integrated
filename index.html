@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="./css/default.css">
+		<script src="./js/jquery-1.9.1.min.js"></script>
+		<script src="./js/classList.min.js"></script>
+		<script src="./js/function.js"></script>
+		<script src="./js/config.js"></script>
+		<title>DR 인터렉티브</title>
+		<link rel="stylesheet" href="css/default.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="top">
+			<div id="main-top" class="">
+				<!-- <p>다락컴퍼니 인터렉티브 요소</p> -->
+				<!-- <span>Made by JH.</span> -->
+				 <img src="./images/logo.png" alt="로고" style="width:160px;margin-top:32px">
+			</div>
+			<div id="main-top-menu">
+				<div class="tabMenu">
+					<ul class="tabs">
+						<!-- <li class="" rel="tab1">1 Page</li>
+						<li class="" rel="tab2">2 Page</li> -->
+					</ul>
+				</div>
+			</div>
+			</div>
+			<div id="main">
+				<div id="board_list">
+					<div id="board_contents_list">
+						<div class="square"></div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="copyright">
+				 TEL 02.332.9589 / FAX 0504-231-3903 / COPYRIGHT(C) DARAKCOMPANY ALL RIGHTS RESERVED.
+				 <a href="http://www.darakcompany.com" target="_blink"><img class="logoimg" src="images/footer_logo.png" alt="My Image" width="275" height="75"></a></div>
+			</div>
+
+
+
+		</div>
+		<script>
+			var url = "";
+			
+			function popup_cont(url, w, h) {
+				window.open(url,"popup","width="+w+",height="+h+",toolbar=0, menubar=0, resizable=yes, location=no, scrollbars=0, top=0, left=0, frameborder=0");
+			}
+			
+			function set_list(no) {
+				var total_list = "";
+				var tab_length = contents_list[no].length;
+				var count = 0;
+				for(var i=1; i<tab_length; i++){
+					count++;
+					var ok_icon = "";
+					var ok_link = '<p>'+contents_list[no][i][0]+'</p>'
+
+					if(contents_list[no][i][1]) {
+						ok_link = '<a href="javascript:popup_cont(\''+contents_list[no][i][2]+'\','+contents_list[no][i][4]+','+contents_list[no][i][5]+')"><span>'+contents_list[no][i][0]+'</span></a>';
+					}
+					if(contents_list[no][i][3] == 1) {
+						total_list += '<ul class="board_contents">'
+									+ '<li class="end01">'+count+'</li>'
+									+ '<li class="end01">'+ok_link+'</li>'
+									+ '<li class="end01">'+ok_icon+'</li>'
+									+ '</ul>';
+						count = 0;
+					}else {
+						total_list += "<ul class='board_contents' style='background:url(./tnimg/" + i + ".png)'>"
+									+ '<li>'+ok_link+'</li>'
+									+ '</ul>';
+					}
+				}
+				// total_list += '<ul class="board_end"><li></li><li></li></ul>';
+				$(".square").html(total_list);
+			}
+			
+			var tab_no = 1;
+			set_list(tab_no);
+			
+			$("ul.tabs li").click(function() {
+				$("ul.tabs li").removeClass("active");
+				$(this).addClass("active");
+				$(".tab_content").hide();
+				var activeTab = $(this).attr("rel");
+				$("#" + activeTab).show();
+				
+				var tab_no = activeTab.slice(3,5);
+				set_list(tab_no);
+			});
+
+			
+			
+		</script>
+	</body>
+</html>

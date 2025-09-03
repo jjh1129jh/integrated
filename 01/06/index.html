@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    /* 가로 비율을 유지하도록 조정 */
+    width: 100vw;
+    height: auto; /* 높이는 가로 비율에 맞춰 자동 조정 */
+    max-height: 100vh; /* 세로가 너무 커지지 않도록 제한 */
+}
+
+
+    </style>
+</head>
+<body>
+    <canvas id="pongCanvas" width="1280" height="720"></canvas>
+    <script src="pong.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/goal/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/goal/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/goal/img2.png");
+}
+
+.htmlPage .eGoal{
+	position: absolute;
+	
+	top:0px;
+	left:200px;
+	
+	opacity:0;
+	
+	font-size: 20pt;
+	
+	width:1600px;
+	height:540px;
+	
+	display: table;
+}
+
+.htmlPage .eContnt{
+	position: absolute;
+	
+	top:540px;
+	left:200px;
+	
+	color:#fff;
+	opacity:0;
+	
+	font-size: 20pt;
+	
+	width:1600px;
+	height:540px;
+	
+	display: table;
+}
+
+.htmlPage .con{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.htmlPage .blit img{
+	vertical-align: middle;
+	padding: 15px 10px;
+}

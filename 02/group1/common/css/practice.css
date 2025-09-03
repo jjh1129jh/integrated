@@ -1,0 +1,21 @@
+.pra_list{position:absolute;left:70px;top:190px;width:645px}
+.pra_list ul > li {margin-bottom:8px;position:relative;di splay:none}
+.pra_list ul > li > em{letter-spacing:-2px;text-align:center;font-size:16pt;text-indent:-1px;line-height:31px;color:#fff;position:absolute;left:0;top:0;background:url("./img/page/pra_list.png") no-repeat;;width:27px;height:30px;display:inline-block}
+.pra_list ul > li > span{pa dding-top:3px;;display:inline-block;line-height:1.4;font-size:12pt;color:#000;padding-left:40px;word-break:keep-all}
+.pra_list ul > li > ul {padding-left:39px;padding-top:5px;}
+.pra_list ul > li > ul > li {float:left;font-size:12pt;margin-right:5px;}
+article{display:none;}
+article:nth-child(1){display:block;}
+#practice .arrow{cursor:pointer;position:absolute;top:5px;z-ind ex:10;display:inline-block}
+#practice .arrow.preArrow{left:0px;}
+#practice .arrow.nexArrow{right:0px;}
+
+#practice .pra_paging{position:absolute;bottom:50px;left:350px;z-index:5;width:130px;bord er:1px solid #000}
+#practice .pra_paging ul{text-align:center;margin:auto;display:inline-block;padding-left:45px;}
+#practice .pra_paging ul li{display:inline-block;widt h:30px;font-size:14pt;color:#1C1C1C;line-height:39px}
+#practice .pra_paging ul li.pra_curPage{color:#F86264;font-size:24pt;font-weight:bolder;line-height:30px}
+
+#practice .pra_result_btn{position:absolute;left:560px;top:420px;width:110px;display:none}
+#practice .pra_modal{width:900px;height:506px;background:rgba(0,0,0,0.6) url("./img/page/pra_modal_bg.png") 50% 50% no-repeat;position:absolute;left:0;top:0;z-index:50} 
+#practice .pra_modal .pra_modal_close{width:27px;height:27px;position:absolute;right:90px; top:77px;backg round:url("./img/page/pra_modal_close_b.png") no-repeat;c ursor:pointer}
+#practice .pra_modal p{font-size:25pt;position:absolute;right:150px;top:200px;}

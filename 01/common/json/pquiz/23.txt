@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "불안장애(anxiety disorder)는 아동과 청소년들의 가장 흔한 심리 및 정신건강 문제이다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "불안장애(anxiety disorder)는 아동과 청소년들의 가장 흔한 심리 및 정신건강 문제입니다.",
+            "right": "O"
+        }
+    ]
+}

@@ -1,0 +1,573 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/line/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/line/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/line/img2.png");
+}
+
+.htmlPage .drags{
+	position: absolute;
+	top:1080px;
+	opacity:0;
+}
+.htmlPage .drags .dragPage{
+	position: absolute;
+	width:960px;
+	height:540px;
+	
+	top:0px;
+	background:url("../img/line/question.png");
+}
+
+.htmlPage .drags button{
+	text-indent: -9999px;
+}
+
+/**/
+.htmlPage .drags .page0 .start{
+	position: absolute;
+	top:640px;
+	left:50%;
+	transform: translateX(-50%);
+	width:200px;
+	height:80px;
+	background:url("../img/line/qstart.png");
+}
+.htmlPage .drags .page0 .start:hover{
+	background-position-y:-80px;
+}
+
+/*question*/
+.htmlPage .drags .drag.dragPage .no{
+	position: absolute;
+	font-size: 100pt;
+	font-weight: 600;
+	
+	width:300px;
+	/*
+	height:130px;
+	*/
+
+	top:150px;
+	left:130px;
+	/*
+	background:url("../img/line/qno.png");
+	text-indent: -9999px;
+	*/
+
+	text-align: right;
+}
+/*
+.htmlPage .drags .page1 .no{background-position-x:0px;}
+.htmlPage .drags .page2 .no{background-position-x:-250px;}
+.htmlPage .drags .page3 .no{background-position-x:-500px;}
+.htmlPage .drags .page4 .no{background-position-x:-750px;}
+.htmlPage .drags .page5 .no{background-position-x:-1000px;}
+*/
+
+.htmlPage .drags .drag .question{
+	position: absolute;
+	width:1100px;
+	height:160px;
+	top: 230px;
+	left: 410px;
+	font-size: 26pt;
+	color:#2c73cb;
+	display: flex;
+  align-items: flex-end;
+	justify-content:flex-start;
+  word-break:keep-all;
+}
+.qtxt{
+	text-align: center;
+	font-family: 'darakbang';
+	font-size: 70px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 84px;
+}
+.htmlPage .drags .drag .red{
+	color:#007bbd;
+	font-weight: 600;
+}
+
+/*sample*/
+.htmlPage .drags .drag .sample{
+	position: absolute;
+	top:280px;
+	left:450px;
+	
+	width:1050px;
+	height:80px;
+	
+	background-color:transparent;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 20px;
+	
+	font-size: 20pt;
+	color:#000;
+}
+
+.htmlPage .drags .drag .sample.imgsample{
+	position: absolute;
+	top:210px;
+	left:1300px;
+	
+	width:500px;
+	height:330px;
+	
+	background-color:transparent;
+	border: 2px solid #ccc;
+	border-radius: 0px;
+	padding: 20px;
+
+	text-align: center;
+}
+
+.htmlPage .drags .drag .sample .scroll{
+	position: absolute;
+	width:1050px;
+	height:80px;
+	text-align: center;
+}
+
+/*btn*/
+.htmlPage .btns{
+	position: absolute;
+	top:320px;
+	left:450px;
+	
+	font-size: 28pt;
+}
+
+.htmlPage .btns button{
+	text-align: left;
+	text-indent:0px;
+}
+
+
+.htmlPage .btns.samplebtn{
+	top:410px;
+}
+.htmlPage .btns .btn{
+	margin: 15px 0px;
+	/*width:1090px;*/
+	cursor: pointer;
+	
+	display: flex;
+  	align-items: top;
+}
+.htmlPage .btns .btn .blit{
+	/*position: absolute;*/
+	display: inline-block;
+	width:45px;
+	height:45px;
+	background-color: #333333;
+	
+	border-radius:45px;
+	text-align: center;
+	color:#fff;
+	border: 2px solid #000;
+	
+	font-size: 22pt;
+	margin-right: 20px;
+}
+.htmlPage .btns .btn .txt{
+	/*
+	position: relative;
+    display:inline;
+	top:0px;
+	left:30px;
+	
+	left:50px;
+	*/
+	padding:4px 0px 0px 0px;
+	width:1300px;
+	color:#000;
+	word-break: keep-all;
+	
+	font-size: 22pt;
+}
+
+.htmlPage .btns .oxbtn0{
+	position: absolute;
+	width:290px;
+	height:370px;
+	
+	top:0px;
+	left:150px;
+	background:url("../img/line/qox.png");
+}
+.htmlPage .btns .oxbtn1{
+	position: absolute;
+	width:290px;
+	height:370px;
+	
+	top:0px;
+	left:570px;
+	background:url("../img/line/qox.png");
+	background-position-x:-290px;
+}
+
+.htmlPage .inputdiv{
+	position: absolute;
+}
+.htmlPage .inputfield{
+	font-size: 20pt;
+}
+/*check*/
+.htmlPage .btns .btn.check{
+	color:#000;
+}
+.htmlPage .btns .check .blit{
+	color:#fff;
+	background-color:#037abd;
+	border: 2px solid #037abd;
+}
+
+/*ok*/
+.htmlPage .btns .okview .blit{
+	color:#000;
+	background-color:transparent;
+	border: 2px solid #ff0000;
+}
+.htmlPage .btns .oxbtn0.check{
+	background-position-y:-370px;
+}
+.htmlPage .btns .oxbtn1.check{
+	background-position-y:-370px;
+}
+/*ok*/
+.htmlPage .ok{
+	position: absolute;
+	width:154px;
+	height:65px;
+	
+	bottom:360px;
+	right:300px;
+	background:url("../img/line/qok.png");
+}
+.htmlPage .ok:hover{
+	background-position-y:-65px;
+}
+
+/*feed*/
+.htmlPage .drags .drag .feed0{
+	position: absolute;
+	width:500px;
+	height:500px;
+	z-index: 1;
+	top:126px;
+	left:710px;
+	background:url("../img/line/qfeed0.png");
+	display: none;
+}
+
+/*hint*/
+.htmlPage .block{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	left:0px;
+	
+	display: none;
+}
+
+.htmlPage .drags .hint{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	z-index: 2;
+	top:0px;
+	left:0px;
+	
+	background:url("../img/line/qinfo.png");
+	display: none;
+}
+
+.htmlPage .drags .hint .right{
+	position: absolute;
+	bottom:130px;
+	left:203px;
+	
+	width:258px;
+	font-size: 40pt;
+	font-weight: 400;
+	text-align: center;
+    color:#fff
+
+}
+.htmlPage .drags .hint .infocon{
+	position: absolute;
+	bottom: 241px;
+	left: 340px;
+	width: 800px;
+	font-size: 25pt;
+	color: #037abd;
+	font-weight: 600;
+
+	
+}
+
+.htmlPage .drags .drag .infocon .scroll{
+	position: absolute;
+	width:1000px;
+	height:120px;
+	word-break: keep-all;
+}
+
+.htmlPage .drags .hint .next{
+	position: absolute;
+	width:180px;
+	height:60px;
+	display: none !important;
+	bottom:180px;
+	right:130px;
+	
+	background:url("../img/line/qnext.png");
+	background-position-y:0px;
+}
+
+.htmlPage .drags .hint .next:hover{
+	background-position-y:-60px;
+}
+
+.htmlPage .drags .hint .result{
+	position: absolute;
+	width:180px;
+	height:60px;
+	
+	bottom:160px;
+	right:220px;
+	
+	background:url("../img/line/qnext.png");
+	background-position-x:-180px;
+}
+
+.htmlPage .drags .hint button:hover{
+	background-position-y:-60px;
+}
+
+/*result*/
+.htmlPage .drags .resultPage{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	
+	top:0px;
+	background:url("../img/line/result.png");
+}
+
+.htmlPage .resultPage .resultNo{
+	position: absolute;
+	top:200px;
+	left:615px;
+}
+.htmlPage .resultPage .resultNo .no{
+	position: absolute;
+	top:130px;
+	width:250px;
+	height:240px;
+	background:url("../img/line/qreturnno.png");
+	
+	text-indent: -9999px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(1){
+	left:250px;
+	background-position-x:0px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(2){
+	left:500px;
+	background-position-x:-250px;
+}
+.htmlPage .resultPage .resultNo .no:nth-child(3){
+	left:750px;
+	background-position-x:-500px;
+}
+
+.htmlPage .resultPage .resultFeed{
+	position: absolute;
+	top:350px;
+	left:615px;
+}
+
+.htmlPage .resultPage .resultFeed .feed{
+	position: absolute;
+	width:375px;
+	height:240px;
+	background:url("../img/line/qresult.png");
+}
+
+.htmlPage .resultPage .resultFeed .feed:nth-child(1){
+	left:131px;
+}
+.htmlPage .resultPage .resultFeed .feed:nth-child(2){
+	left:390px;
+}
+.htmlPage .resultPage .resultFeed .feed:nth-child(3){
+	left:643px;
+}
+	
+.htmlPage .resultPage .rtxt{
+	position: absolute;
+	top:620px;
+	left:932px;
+	color:#fff;
+	font-size: 30pt;
+}
+.htmlPage .resultPage .retry{
+	position: absolute;
+	width:240px;
+	height:80px;
+	
+	top:640px;
+	left:50%;
+	transform: translateX(-50%);
+	background:url("../img/line/qretry.png");
+}
+
+.htmlPage .resultPage .retry:hover{
+	background-position-y:80px;
+}
+
+.htmlPage .resultPage.feedNone .rtxt{
+	top:420px;
+}
+.htmlPage .resultPage.feedNone .retry{
+	top:576px;
+}
+
+
+.lineinfo{
+	position: absolute;
+	top: 110px;
+	left: 160px;
+	width: 770px;
+	text-align: left;
+	font-family: 'darakbang';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: #f0a000;
+	letter-spacing: -1px;
+	/* text-shadow: 2px 2px 2px #d1cfac; */
+}
+
+.layer {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+	background: rgb(84, 137, 236);
+  border: 3px solid rgb(84, 137, 236);
+  cursor: pointer; /* 드래그 가능함을 나타내는 커서 스타일 */
+}
+
+.left {
+  left: 380px;
+}
+
+.right {
+  right: 380px;
+}
+
+#layer1, #layer5 { top: 486px; }
+#layer2, #layer6 { top: 616px; }
+#layer3, #layer7 { top: 736px; }
+#layer4, #layer8 { top: 866px; }
+
+
+/* 선을 잇는곳 */
+#layer5,
+#layer6,
+#layer7,
+#layer8{
+  pointer-events: none;
+}
+#container2 {
+  position: relative;
+}
+
+#lineCanvasTrue, #lineCanvasFalse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#checkAnswerButton {
+	display: none;
+  position: absolute;
+	width:180px;
+	height:60px;
+	background: url(../img/line/check.png);
+	background-position-y: 0;
+	top: 360px;
+	left: 1550px;
+  cursor: pointer;
+}
+
+#checkAnswerButton:hover {
+  background-position-y: -60px;
+}
+
+#resetButton {
+	display: none;
+  position: absolute;
+	width:180px;
+	height:60px;
+	background: url(../img/line/recheck.png);
+	background-position-y: 0;
+	top: 360px;
+	left: 190px;
+  cursor: pointer;
+}
+
+#resetButton:hover {
+  background-position-y: -60px;
+}
+
+#retryButton {
+	/* display: none; */
+  position: absolute;
+	width:220px;
+	height:98px;
+	background: url(../img/line/retrybtn.png);
+	background-position-y: 0;
+	bottom: 150px;
+	right: 100px;
+  cursor: pointer;
+}
+
+#retryButton:hover {
+  background-position-y: -98px;
+}
+
+.retryconunt{
+	position: absolute;
+	color: #fff;
+	z-index: 2;
+	bottom: 165px;
+	right: 171px;
+	font-size: 19px;
+	pointer-events: none;
+	letter-spacing: 1px;
+}

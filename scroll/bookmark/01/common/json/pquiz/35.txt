@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "‘통합체육’은 ‘통합교육’의 교과 영역 중 하나로서 같지 않은 맥락에서 정의할 수 있다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "‘통합체육’은 ‘통합교육’의 교과 영역 중 하나로서 같은 맥락에서 정의할 수 있습니다.",
+            "right": "X"
+        }
+    ]
+}

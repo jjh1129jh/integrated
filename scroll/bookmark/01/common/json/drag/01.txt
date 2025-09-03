@@ -1,0 +1,52 @@
+﻿{
+    "drag": [
+        {
+            "type": "04",
+            "question": "경기의 성적을 조작하기 위해 약물을 복용하거나 주사하는 것은?",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "ㅋ",
+                    "list1": "ㅋ",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "정답은 ‘도핑’입니다.",
+            "right": "5"
+        },
+        {
+            "type": "04",
+            "question": "Q2 구형 자동차와 신형 자동차를 각자 위치로 옮기시오.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "2개 드랍 테스트 완료",
+            "right": "2"
+        },
+        {
+            "type": "04",
+            "question": "Q3 자동차의 종류를 구분하시오.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "3개 드랍 테스트 완료",
+            "right": "3"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+.after{position:absolute;overflow:hidden;}
+.after button{overflow:hidden;text-indent:-9999px;border:none;cursor:pointer;}
+.after .img0{position:absolute;left:0px;top:0px;background:url(../img/afterAnswer/img0.png) 0 0 no-repeat;opacity:0;}
+.after .img1{position:absolute;left:0px;top:0px;background:url(../img/afterAnswer/img1.png) 0 0 no-repeat;opacity:0;}
+.after .img2{position:absolute;left:0px;top:0px;background:url(../img/afterAnswer/img2.png) 0 0 no-repeat;opacity:0;}
+.after .img3{position:absolute;left:0px;top:0px;background:url(../img/afterAnswer/img3.png) 0 0 no-repeat;opacity:0;}
+.after .img4{position:absolute;left:0px;top:0px;background:url(../img/afterAnswer/img4.png) 0 0 no-repeat;opacity:0;}
+
+.after .info{position:absolute;left:-20px;top:0px;background:url(../img/afterAnswer/info.png) 0 0 no-repeat;opacity:0;}
+.after .info .txt{position:absolute;left:72px;top:270px;width:300px;height:230px; display:table;}
+.after .info .txt span{font-family:'NanumBarunGothic', sans-serif;font-size:25px;color:#000000;font-weight:bolder;text-align: center;vertical-align:middle;display:table-cell;word-break: keep-all;}
+
+.after .prev{position:absolute;left:463px;top:130px;width:283px;height:385px;font-family:'NanumBarunGothic', sans-serif;font-size:18px;color:#000000;ime-mode:active;opacity:0;}
+.after .input{position:absolute;left:783px;top:130px;width:283px;height:385px;font-family:'NanumBarunGothic', sans-serif;font-size:18px;color:#000000;ime-mode:active;opacity:0;resize:none;background-color:transparent;border:none;}
+
+.after .save{position:absolute;left:705px;top:540px;width:126px;height:39px;background:url(../img/afterAnswer/save.png) 0 0 no-repeat;display:none;}
+.after .save:hover{background-position-y:-39px;}
+.after .view{position:absolute;left:845px;top:540px;width:211px;height:39px;background:url(../img/afterAnswer/teacher.png) 0 0 no-repeat;display:none;}
+.after .view:hover{background-position-y:-39px;}
+
+#popUI{position:absolute;width:100%;height:100%;background:url(../img/back.png);display:none;}
+#popUI .pafter{position:absolute;left:50%;top:50%;margin:-315px 0px 0px -560px;width:1120px;height:630px;background:url(../img/afterAnswer/pop.png) 0 0 no-repeat;}
+#popUI .pafter .after_list{position:absolute;left:270px;top:238px;width:583px;height:233px;font-family:'NanumBarunGothic', sans-serif;font-size:16px;word-break: keep-all;}
+
+#popUI .pafter .close{position:absolute;left:840px;top:140px;width:56px;height:56px;background:url(../img/afterAnswer/close.png) 0 0 no-repeat;overflow:hidden;text-indent:-9999px;border:none;cursor:pointer;}
+#popUI .pafter .close:hover{background-position-y:-56px;}

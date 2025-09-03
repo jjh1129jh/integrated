@@ -1,0 +1,122 @@
+#type11.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type11.typeA .oathopen{
+  position: absolute;
+  top: 88px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  height: 260px;
+  background: none;
+  cursor: pointer;
+  z-index: 100001;
+}
+
+#type11.typeA .oathopen.twinkling::after{
+  display: block;
+  content: '';
+  width:110px;
+  height:101px;
+  position: absolute;
+  top: 122px;
+  left: 135px;
+  cursor: pointer;
+  background:url(../img/quiz/11/pointer.png);
+  background-size:110px 101px;
+  z-index: 9;
+  animation: twinkling 1s linear infinite;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#type11.typeA .oath{
+  display: none;
+  position: absolute;
+  width:1000px;
+  height:600px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: #bbaf99;
+  z-index: 100002;
+  border: 8px solid #433331;
+}
+#type11.typeA .oath > div{
+  position: relative;
+  width:100%;
+  height:100%;
+  overflow-y: scroll;
+}
+#type11.typeA .oath > div .oathimg{
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  width:900px;
+  height:1587px;
+  background: url(../img/quiz/11/oathimg.png);
+  background-size: 900px 1587px;
+  overflow-y: hidden;
+}
+#type11.typeA .oath > div .ck_ok{
+  position: absolute;
+  top:1500px;
+  left:803px;
+  width:91px;
+  height:40px;
+  background: url(../img/quiz/11/submit.png);
+  background-size: 91px 40px;
+  cursor: pointer;
+  overflow-y: hidden;
+  border: none;
+}
+#type11.typeA .oath > div .ck_ok:hover{
+  background: url(../img/quiz/11/submit_over.png);
+  background-size: 91px 40px;
+}
+
+.input_g {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.input_g input {
+  font-family: 'SCDream5';
+    position: absolute;
+    top: 1503px;
+    left: 97px;
+    height: 29px;
+    width: 157px;
+    background: #cdc0a7;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 11px; /* 좌측에 10px 간격 추가 */
+    line-height: 30px;
+    color: #333333;
+}
+.input_g input:visited,
+.input_g input:focus,
+.input_g input:focus-visible,
+.input_g input:active {
+    border: none;
+    outline: none;
+}
+.input_g input:nth-child(2) {
+    left: 326px;
+}
+.input_g input:nth-child(3) {
+    left: 560px;
+}
+input::placeholder {
+  font-family: 'SCDream5';
+    color: #333333;
+    opacity: 0.5;
+}

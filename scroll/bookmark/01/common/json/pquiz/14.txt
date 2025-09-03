@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "트레이닝을 통해 향상된 체력은 계속 유지된다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "향상된 체력은 트레이닝의 가역성에 의해 최소 48시간 이후부터 감소하기 시작합니다.",
+            "right": "X"
+        }
+    ]
+}

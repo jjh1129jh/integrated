@@ -1,0 +1,17 @@
+.htmlPage .img{
+	position: absolute;
+	width:1920px;
+	height:1080px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.htmlPage .img:nth-child(1){
+	background:url("../img/guide/img0.png");
+}
+.htmlPage .img:nth-child(2){
+	background:url("../img/guide/img1.png");
+}
+.htmlPage .img:nth-child(3){
+	background:url("../img/guide/img2.png");
+}

@@ -1,0 +1,20 @@
+﻿{
+    "quiz": [
+        {
+            "type": "00",
+            "question": "건강체력은 근력, 유연성, 근지구력, 심폐지구력, 순발력으로 구성되어 있다.",
+            "sample": "",
+            "viewerMultiChoiceArrList": [
+                {
+                    "list0": "",
+                    "list1": "",
+                    "list2": "",
+                    "list3": "",
+                    "list4": ""
+                }
+            ],
+            "explanation": "건강체력은 근력, 유연성, 근지구력, 심폐지구력, 신체구성으로 구성되어 있습니다.",
+            "right": "X"
+        }
+    ]
+}

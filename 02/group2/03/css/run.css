@@ -1,0 +1,373 @@
+#htmlShow{
+  width:100%;
+  height:100%;
+}
+
+/* 게임 시작버튼 영역 */
+.runintro{
+  width:100%;
+  height:100%;
+  background: url(../img/run/designplease.png);
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 9999999999998;
+}
+
+/* 게임 시작버튼 */
+.runstart{
+  width:400px;
+  position: absolute;
+  top:53%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 9999999999999;
+}
+
+/* 게임 종료 버튼 */
+.gameover{
+  display: none;
+  width:500px;
+  height:227px;
+  position: absolute;
+  top:232px;
+  left:394px;
+  cursor: pointer;
+  background:url(../img/run/gameover.png);
+  background-size:500px 227px;
+  z-index: 9;
+}
+.gameover:hover{
+  background:url(../img/run/gameover_h.png);
+  background-size:500px 227px;
+}
+
+.gameover.twinkling::after{
+  display: block;
+  content: '';
+  width:110px;
+  height:101px;
+  position: absolute;
+  top: 62px;
+  left: 395px;
+  cursor: pointer;
+  background:url(../img/run/pointer.png);
+  background-size:110px 101px;
+  z-index: 9;
+  animation: twinkling 1s linear infinite;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* 게임 최상단 영역 */
+#runcontent{
+  /* display: none; */
+  width:100%;
+  height:100%;
+  background: url(../img/run/background.png);
+  background-size: 1280px;
+}
+
+/* 게임 시작 전 카운트 영역 */
+.countbox{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.3);
+  z-index: 9998;
+}
+
+/* 게임 실패화면 */
+.retryBG{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:url(../img/run/retry_bg.png);
+  z-index: 9998;
+}
+
+.numbercount{
+  pointer-events: none;
+  color: #fff;
+  font-size:150px;
+  position: absolute;
+  top:45%;
+  left:50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  line-height: 90px;
+  width: 800px;
+}
+
+/* 본 게임 영역 */
+.runarea{
+  width:1280px;
+  height:720px;
+  position: relative;
+  perspective: 1200px;
+}
+.wall{
+  width:1280px;
+  height:720px;
+  position: absolute;
+  pointer-events: none;
+  background: url(../img/run/frontimg.png);
+  background-size:1280px;
+  z-index: 4;
+}
+
+/* 트랙 */
+.track {
+  width: 100%;
+  max-width: 1600px;
+  height: 150%;
+  /*   outline: 1px solid red; */
+  margin: 0 auto;
+  position: relative;  
+  transform: translateY(-4%) rotateX(60deg);
+  background:
+    url('../img/run/run_track.png');
+  overflow: hidden;
+}
+
+/* 플레이어 캐릭터 */
+#player {
+  width: 110px;
+  position: absolute;
+  left: calc(50% - 58px);
+  top: 62%;
+  pointer-events: none;  
+  z-index: 99999;
+  transition: 0.3s;
+}
+#player:after {
+  content: '';
+  width: 100% ;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+
+  filter: drop-shadow(0 0 1px white);
+}
+
+#player.crasheffect{
+  animation: crasheffect 1.4s linear forwards;
+}
+
+@keyframes crasheffect {
+  0% { opacity: 0.3; }
+  25% { opacity: 1; }
+  50% { opacity: 0.3; }
+  75% { opacity: 1; }
+  99% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.pit {
+  width: 282px;
+  height: 220px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  /* background: 
+    url('../img/run/pit.png');
+    background-size: 107px; */
+}
+
+.mop0{
+    background: url('../img/run/pit1.png');
+    background-size: 282px;
+    box-sizing: border-box;
+    transform-style: flat;
+    transform: none;
+    animation: pit 4s linear forwards;
+}
+.mop1{
+    background: url('../img/run/pit2.png');
+    background-size: 282px;
+    box-sizing: border-box;
+    transform-style: flat;
+    transform: none;
+    animation: pit 4s linear forwards;
+}
+.mop2{
+    background: url('../img/run/pit3.png');
+    background-size: 282px;
+    box-sizing: border-box;
+    transform-style: flat;
+    transform: none;
+    animation: pit 4s linear forwards;
+}
+.mop3{
+    background: url('../img/run/pit4.png');
+    background-size: 282px;
+    box-sizing: border-box;
+    transform-style: flat;
+    transform: none;
+    animation: pit 4s linear forwards;
+}
+.mop4{
+    background: url('../img/run/pit5.png');
+    background-size: 282px;
+    box-sizing: border-box;
+    transform-style: flat;
+    transform: none;
+    animation: pit 4s linear forwards;
+}
+
+@keyframes pit {
+  0% { transform: scale(0.2); }
+  20% { transform: scale(0.2); }
+  /* 80% { transform: scale(1); } */
+  100% { transform: scale(1); }
+}
+
+.restart{
+  display: none;
+  pointer-events: auto;
+  position: absolute;
+  width:400px;
+  height:102px;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('../img/run/box_replay_o.png');
+  background-size: 400px 102px;
+  cursor: pointer;
+  z-index: 999999999;
+}
+
+/* trees trees trees */
+.tree {
+  width: 100px;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  top: -100px;
+  transform: translateX(-50%);
+  background-size: cover;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.15));
+}
+
+@keyframes tree1 {
+  100% {
+    top: 100%;
+    transform: translateX(-400%);
+  }  
+}
+@keyframes tree2 {
+  100% {
+    top: 100%;
+    transform: translateX(-300%);
+  }  
+}
+@keyframes tree3 {
+  100% {
+    top: 100%;
+    transform: translateX(220%);
+  }  
+}
+@keyframes tree4 {
+  100% {
+    top: 100%;
+    transform: translateX(320%);
+  }  
+}
+
+/* 방향키 */
+.arrow{
+  display: none;
+  position: absolute;
+  width:250px;
+  height:60px;
+  top:87%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* 방향키 고정구역 */
+.arrow > div{
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 왼쪽 방향키 */
+.arrow .arrowL{
+  width:60px;
+  height:60px;
+  cursor: pointer;
+  background: url(../img/run/arrow_left_o.png);
+  background-size: 60px;
+}
+
+.arrow .arrowL:hover{
+  background: url(../img/run/arrow_left_c.png);
+  background-size: 60px;
+}
+
+
+/* 오른쪽 방향키 */
+.arrow .arrowR{
+  width:60px;
+  height:60px;
+  cursor: pointer;
+  background: url(../img/run/arrow_right_o.png);
+  background-size: 60px;
+}
+
+.arrow .arrowR:hover{
+  background: url(../img/run/arrow_right_c.png);
+  background-size: 60px;
+}
+
+/* 충돌 이펙트 */
+.crash{
+  display: none;
+  position: absolute;
+  width:192px;
+  height:192px;
+  top:68%;
+  transform: translate(-50%, -50%);
+  background:none;
+}
+
+/* 퀴즈 하단 타이틀 */
+
+.runtitle{
+  display: none;
+  width: 440px;
+  height: 80px;
+  background: url(../img/run/score.png);
+  background-size: 440px 80px;
+  position: absolute;
+  top: 4px;
+  left: 416px;
+  z-index: 9;
+  text-align: center;
+  pointer-events: none;
+}
+
+.runtitle span{
+  line-height: 70px;
+  text-align: center;
+  font-family: '210_omnigulim040';
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #ffda9a;
+}
+
