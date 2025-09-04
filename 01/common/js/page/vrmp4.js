@@ -3,7 +3,7 @@ console.log("vrmp4");
 // Create and append the control elements
 var vrplayon = 1; //1플레이중 0정지상태
 var vrtrans = 0; //1 3D 0 2D
-
+var existingVideoElement = document.getElementById('video');
 var _str = "";
 _str += '<div class="controls">';
 // _str += '    <div id="progress-container">';
@@ -17,9 +17,9 @@ _play += '            <div class="time-display" id="time-display">00:00 / 00:00<
 _play += '        </div>';
 
 _play += '	<div id="desc-container" style="display:none">';
-_play += '	  <iframe src="https://www.youtube.com/embed/D7icsuamx5E"></iframe>';
-_play += '	  <div class="title">China Forgotten War</div>';
-_play += '	  <div class="text">WWII came to the small town of Tai’erzhuang in central China – and it was never the same again. The town was strategically placed, on the north-south transport railway corridor and the ancient Grand Canal, and so was a focus of the Japanese Imperial army as it advanced. Li Jing Shan was only a child when his family fled the fighting. They returned to find their home, and most of the town, in ruins.</div>';
+_play += '	  <iframe src="https://www.youtube.com/embed/zoX-Un-Ksvw"></iframe>';
+_play += '	  <div class="title">Wadi Rum Desert</div>';
+_play += '	  <div class="text">The landscapes of Jordan are quite different from any other place in the world: 90% of its territory is occupied by deserts and semi-deserts. The most remarkable one is Wadi Rum, the place that remained untouched by the time and civilizations</div>';
 _play += '	</div>';
 // _play += '            <div class="vrplay" onclick="vrplay()"></div>';
 $(".btns").append(_play);
@@ -37,10 +37,7 @@ container.parentNode.insertBefore(panolensContainer, container);
 panolensContainer.appendChild(container);
 
 // Create PANOLENS VideoPanorama and Viewer
-// panorama = new PANOLENS.VideoPanorama('../common/mp4/Chicago.mp4', { autoplay: true, muted: false });
-// 포트폴리오용 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 panorama = new PANOLENS.VideoPanorama('../common/mp4/Desert.mp4', { autoplay: true, muted: false });
-// 포트폴리오용 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 infospot = new PANOLENS.Infospot();
 infospot.position.set(5000.00, -665.23, -3996.49);
@@ -51,8 +48,18 @@ infospot2.addHoverElement(document.getElementById('desc-container'), 200);
 panorama.add(infospot);
 panorama.add(infospot2);
 
-viewer = new PANOLENS.Viewer({ container: container });
+viewer = new PANOLENS.Viewer({
+container: container,
+  minFov: 30,
+  maxFov: 100
+});
 viewer.add(panorama);
+
+panorama.addEventListener('enter-fade-complete', () => {
+  viewer.camera.fov = viewer.OrbitControls.maxFov; // 100으로 맞춤
+  viewer.camera.updateProjectionMatrix();
+  console.log("초기 FOV 적용됨:", viewer.camera.fov);
+});
 
 // Select DOM elements for video controls
 videoElement = panorama.videoElement;
@@ -102,6 +109,7 @@ setTimeout(() => {
 				$("#video").hide()
 				existingVideoElement.muted = true;
 				videoElement.muted = false;
+								console.log("3D 전환")
 				vrtrans = 0;
 			}
 			else if(vrtrans == 0){
@@ -109,6 +117,7 @@ setTimeout(() => {
 				$("#video").show()
 				existingVideoElement.muted = false;
 				videoElement.muted = true;
+				console.log("2D 전환")
 				vrtrans = 1;
 			}
 		})
